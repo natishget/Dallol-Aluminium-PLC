@@ -1,24 +1,22 @@
-import React from 'react'
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
-
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState('ENG'); // Set the default selected option here
+  const [selectedOption, setSelectedOption] = useState("ENG"); // Set the default selected option here
 
-  const options = ['ENG', 'AMH'];
+  const options = ["ENG", "AMH"];
 
   const handleOptionSelect = (option) => {
     setSelectedOption(option);
     setIsOpen(false);
   };
 
-
   return (
-    <div className='text-logoC w-screen font-sans'>
-
-      <div className='flex'>
+    <div className="text-logoC w-screen font-sans">
+      <h1 className="text-black">Nav goes here</h1>
+      {/* <div className='flex'>
 
         <div className='bg-white/30 background-blur-lg flex-none h-16'>
           <h1 className='w-6'></h1>
@@ -95,12 +93,9 @@ const Header = () => {
       <div className='pr-4 flex justify-top items-center absolute bottom-0 mb-5 right-0'>
         <h3 className='text-base mr-1 px-3 py-1 font-semibold text-logoC bg-black rounded-lg'>ENG</h3>
         <h3 className='text-base px-3 py-1 font-semibold text-logoC bg-black rounded-lg'>AMH</h3>
-      </div>
-
+      </div> */}
     </div>
+  );
+};
 
-
-  )
-}
-
-export default Header
+export default Header;

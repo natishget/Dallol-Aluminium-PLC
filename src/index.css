@@ -2,17 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-#root{
-    padding: 0px;
-    margin: 0px;
-    max-width: max-content;
-    text-align: none;
+#root {
+  padding: 0px;
+  margin: 0px;
+  max-width: max-content;
+  text-align: none;
 }
 
-body{
+/* body{
     background-image: url('./bgsample.avif');
     background-repeat: no-repeat;
     background-size: cover;
     
    
-}
+} */
