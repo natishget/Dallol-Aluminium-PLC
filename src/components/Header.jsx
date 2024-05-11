@@ -5,10 +5,10 @@ const Header = () => {
   return (
     <div>
 
-      <a to="/"> Home </a>
-      <a to="/about"> About </a>
-      <a to="/service"> Service </a>
-      <a to="/contact"> Contact </a>
+      <a > Home </a>
+      <a > About </a>
+      <a > Service </a>
+      <a > Contact </a>
     </div>
   )
 }
