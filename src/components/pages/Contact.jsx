@@ -11,7 +11,7 @@ import xtwitter from '../../assets/xtwitter.svg'
 
 const Contact = () => {
   return (
-    <div className='contact w-screen h-screen '>
+    <div className='contact h-screen '>
       <div className='w-full h-full bg-secondary_t text-primary  md:flex justify-center items-center '>
            
           <div className=' md:w-1/2  flex justify-center items-center '>
