@@ -34,31 +34,30 @@ const Footer = () => {
         </div>
       </div>
       {/* second div */}
-      <div className='flex  justify-center w-full   py-8 text-quaternary font-bold px-10'>
-        <div className='flex w-1/3 justify-center '>
-          <div className='flex-col justify-center items-center'>
-          <img src={email} alt="" className='w-6 pb-1' />
-          <p className='text-primary'>MAIL</p>
-          <a href='' className='text-sm'>dallolaluminium@gmail.com</a>
-          </div>
+      <div className='flex-col  w-full   py-8 text-quaternary font-bold px-10'>
+        <div className='flex w-full'>
+          <div className='w-1/3 flex justify-center'><img src={email} alt="" className='w-6 pb-1' /></div>
+          <div className='w-1/3 flex justify-center'><img src={phone} alt="" className='w-5 pb-1' /> </div>
+          <div className='w-1/3 flex justify-center'><img src={location} alt="" className='w-5 pb-1' /></div>
         </div>
+        <div className='flex '>
+          <div className='flex-col w-1/3 justify-center items-center '>
+            <p className='text-primary'>MAIL</p> 
+            <a href='' className='text-sm'>dallolaluminium@gmail.com</a>
+          </div>
 
-        <div className='w-1/3 flex  justify-center'>
-          <div className=''>
-            <img src={phone} alt="" className='w-5 pb-1' />
+          <div className='w-1/3 flex-col  justify-center items-center'>   
             <p className='text-primary'>CALL</p>
             <a href='' className='text-sm'>+251 911 82 32 71</a><br />
             <a href='' className='text-sm'>+251 903 23 24 25</a>
           </div>
-        </div>
 
-        <div className='w-1/3 flex justify-center items-center  '>
-          <div>
-            <img src={location} alt="" className='w-5 pb-1' />
+          <div className='w-1/3 flex-col justify-center items-center  '> 
             <p className='text-primary'>FIND US</p>
             <p className='text-sm'>22 Town Square Mall 1st Floor</p>
             <p className='text-sm'>Megenagna to Signal Upper Nile - <br /> Real estate 1st Floor </p>  
           </div>
+
         </div>
 
       </div>
