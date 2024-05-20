@@ -22,7 +22,7 @@ const Header = () => {
         <div className='bg-white/30 background-blur-lg flex-1 flex justify-between pt-4 pb-4'>
 
           <div className='flex justify-center pl-6'>
-            <img src="../logo.png" alt="" className='w-12 h-12' />
+            <img src="src/img/logo.png" alt="" className='w-12 h-12' />
             <h3 className='pl-1 flex items-center text-lg font-semibold'>Dallol Aluminium</h3>
           </div>
 
