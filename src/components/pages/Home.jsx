@@ -2,8 +2,9 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home Page in Development</h1>
+    <div className='w-screen bg-slate-500 h-lvh bg-cover'>
+      <h1 className=''>Home Page in Development</h1>
+      <div ></div>
     </div>
   )
 }

@@ -8,11 +8,3 @@
     max-width: max-content;
     text-align: none;
 }
-
-body{
-    background-image: url('./bgsample.avif');
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-   
-}
