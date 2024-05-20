@@ -5,7 +5,6 @@
 #root{
     padding: 0px;
     margin: 0px;
-    max-width: max-content;
     text-align: none;
 }
 
@@ -13,5 +12,23 @@ body{
     background-image: url('./bgsample.avif');
     background-repeat: no-repeat;
     background-size: cover;
-
+    overflow-x: hidden;
 }
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 3px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: rgb(40,41,45);
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(253, 225, 47); 
+    border-radius: 100%;
+  }
