@@ -16,6 +16,7 @@ const Footer = () => {
 
       {/* first div */}
       <div className='text-xl  font-bold flex w-full justify-evenly items-center py-8 border-b border-quaternary rounded-full'>
+
         <div className='text-quaternary hidden md:block'>Get in touch</div>
 
         <div className='md:text-5xl text-4xl font-bold font text-quinary'>Dallol</div>
@@ -29,11 +30,13 @@ const Footer = () => {
             <img src={linkedin} alt="" className='w-5 h-5' />
           </div>
           <div className='md:w-10 md:h-10 w-8 h-8 border border-secondary_t rounded-full flex justify-center items-center bg-secondary_t'>
+
             <img src={telegram} alt="" className='w-5 h-5' />
           </div>
         </div>
       </div>
       {/* second div */}
+
       <div className='w-full md:flex justify-center items-center py-8 text-quaternary font-bold px-10'>
           <div className='flex-col md:w-1/3 w-full justify-center items-center '>
             <img src={email} alt="" className='w-6 pb-1' />
@@ -58,6 +61,7 @@ const Footer = () => {
       </div>
       {/* third div */}
       <div className='flex justify-center py-8 border-t rounded-full border-quaternary text-quaternary text-sm  mt-2 md:mt-0'>
+
         <p> &copy; 2024 Dallol Aluminum All rights Reserved</p>
       </div>
     </div>

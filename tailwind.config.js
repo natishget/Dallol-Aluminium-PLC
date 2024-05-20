@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-bg': "url('src/img/herobg.jpg')",
+      },
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
