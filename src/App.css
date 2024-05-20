@@ -1,3 +1,4 @@
+/* 
 #root {
   margin: 0 auto;
   padding: 2rem;
@@ -37,4 +38,17 @@
 
 .read-the-docs {
   color: #888;
+}  */
+
+
+.contact{
+  background-image: url(assets/final.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
+
+.input1::placeholder {
+  font-size: 12px;
+}
+

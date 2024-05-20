@@ -14,7 +14,7 @@ export default {
         current: 'currentColor',
         'logoC': '#F4FF00',
         'glass': 'rgba(255, 255, 255, .1)',
-        'primary': 'rgb(253, 225, 47)',
+        primary: 'rgb(253, 225, 47)',
         secondary: 'rgb(0,0,0)',
         tertiary: 'rgb(40,41,45)',
         quaternary: 'rgb(120,121,125)',

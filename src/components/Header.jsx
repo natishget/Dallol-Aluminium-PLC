@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import logo from "../img/logo.png"
 
 const Header = () => {
 
@@ -22,15 +23,15 @@ const Header = () => {
         <div className='bg-white/30 background-blur-lg flex-1 flex justify-between pt-4 pb-4'>
 
           <div className='flex justify-center pl-6'>
-            <img src="src/img/logo.png" alt="" className='w-12 h-12' />
+            <img src={logo} alt="" className='w-12 h-12' />
             <h3 className='pl-1 flex items-center text-lg font-semibold'>Dallol Aluminium</h3>
           </div>
 
           <div className='flex pt-2 font-semibold text-lg pr-6 items-center'>
-            <a to="/index" className='pr-3'> Home </a>
-            <a to="/about" className='pr-3'> About Us</a>
-            <a to="/service" className='pr-3'> Services </a>
-            <a to="/contact" className='pr-3'> Contact Us</a>
+            <Link to="" className='pr-3'> Home </Link>
+            <Link to="about" className='pr-3'> About Us</Link>
+            <Link to="service" className='pr-3'> Services </Link>
+            <Link to="contact" className='pr-3'> Contact Us</Link>
 
             <div className="w-20">
               <div>
