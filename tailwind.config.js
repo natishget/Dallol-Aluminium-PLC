@@ -5,13 +5,21 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-    colors: {
-      mybg: 'rgba(0,0,0,0.85)',
-      myellow: 'rgb(253, 225, 47)',
-      mybg2: 'rgba(0,0,0,0)',
-      myellow2: 'rgba(253, 225, 47, 0.5)',
-      
+    extend: {
+      colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        'logoC': '#F4FF00',
+        'glass': 'rgba(255, 255, 255, .1)',
+        primary: 'rgb(253, 225, 47)',
+        secondary: 'rgb(0,0,0)',
+        tertiary: 'rgb(40,41,45)',
+        quaternary: 'rgb(120,121,125)',
+        quinary: 'rgb(255,255,255)',
+        trans: 'rgba(0,0,0,0.0)',
+        primary_t: 'rgba(253, 225, 47, 0.5)',
+        secondary_t: 'rgba(0,0,0,0.85)'
+      },
     },
   },
   plugins: [],
