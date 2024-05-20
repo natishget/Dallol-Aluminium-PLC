@@ -28,10 +28,10 @@ const Header = () => {
           </div>
 
           <div className='flex pt-2 font-semibold text-lg pr-6 items-center'>
-            <a to="/index" className='pr-3'> Home </a>
-            <a to="/about" className='pr-3'> About Us</a>
-            <a to="/service" className='pr-3'> Services </a>
-            <a to="/contact" className='pr-3'> Contact Us</a>
+            <Link to="" className='pr-3'> Home </Link>
+            <Link to="about" className='pr-3'> About Us</Link>
+            <Link to="service" className='pr-3'> Services </Link>
+            <Link to="contact" className='pr-3'> Contact Us</Link>
 
             <div className="w-20">
               <div>
