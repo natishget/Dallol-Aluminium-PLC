@@ -2,15 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-#root{
-    padding: 0px;
-    margin: 0px;
-    max-width: max-content;
-    text-align: none;
+#root {
+  padding: 0px;
+  margin: 0px;
+  text-align: none;
 }
 
-body{
-    /* background-image: url(assets/final.jpg);
+body {
+  /* background-image: url(assets/final.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;  */
