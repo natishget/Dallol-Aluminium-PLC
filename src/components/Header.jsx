@@ -19,8 +19,8 @@ const Header = () => {
   return (
     <div className='text-gray-800 w-screen font-sans fixed'>
 
-      <div className='w-screen bg-white/30 background-blur-lg'>
-        <div className='bg-white/30 background-blur-lg flex-1 flex justify-between pt-4 pb-4'>
+      <div className='w-[90%] mx-auto rounded-md shadow-slate-300 shadow-xl bg-white/30 background-blur-lg'>
+        <div className='bg-white/50 background-blur-lg flex-1 flex justify-between pt-4 pb-4'>
 
           <div className='flex justify-center pl-6'>
             <img src={logo} alt="" className='w-12 h-12' />
