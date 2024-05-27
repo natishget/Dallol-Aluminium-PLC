@@ -37,18 +37,18 @@ const Footer = () => {
       </div>
       {/* second div */}
 
-      <div className='w-full md:flex justify-center items-center py-8 text-quaternary font-bold px-10'>
+      <div className='w-full md:flex md:justify-center md:items-center py-8 text-quaternary font-bold px-10'>
           <div className='flex-col md:w-1/3 w-full justify-center items-center '>
             <img src={email} alt="" className='w-6 pb-1' />
             <p className='text-primary'>MAIL</p> 
-            <a href='' className='md:text-sm'>dallolaluminium@gmail.com</a>
+            <a href='mailto:dallolaluminium@gmail.com' className='md:text-sm hover:text-primary hover:text-xl duration-500'>dallolaluminium@gmail.com</a>
           </div>
 
           <div className='md:w-1/3 flex-col w-full  justify-center items-center mt-5'>   
             <img src={phone} alt="" className='w-5 pb-1' /> 
             <p className='text-primary'>CALL</p>
-            <a href='' className='md:text-sm'>+251 911 82 32 71</a><br />
-            <a href='' className='md:text-sm'>+251 903 23 24 25</a>
+            <a href='tell:+251911823271' className='md:text-sm hover:text-primary hover:text-xl duration-500'>+251 911 82 32 71</a><br />
+            <a href='tell:+251903232425' className='md:text-sm hover:text-primary hover:text-xl duration-500'>+251 903 23 24 25</a>
           </div>
 
           <div className='md:w-1/3 flex-col w-full justify-center items-center mt-5'> 

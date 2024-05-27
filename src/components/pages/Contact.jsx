@@ -19,7 +19,7 @@ const Contact = () => {
               <p className='pb-7'>Ask for a quotation from us!</p>
               <form action="">
                   <input type="text" className='input1 border-b bg-trans border-primary_t w-2/3 mb-5 py-2 placeholder-primary placeholder-sm
-                  focus:outline-none focus:border-primary_t focus:ring-1 ' placeholder='Name'/><br />
+                  focus:outline-none focus:border-primary focus:ring-2 ' placeholder='Name'/><br />
                   <input type="Email" className='input1 border-b bg-trans border-primary_t w-2/3 mb-5 py-2 placeholder-primary placeholder-sm
                   focus:outline-none focus:border-primary_t focus:ring-1 ' placeholder='Email'/><br />
                   <input type="text"className='input1 border-b bg-trans border-primary_t w-2/3 mb-5 py-2 placeholder-primary placeholder-sm

@@ -23,6 +23,26 @@ export default {
         primary_t: 'rgba(253, 225, 47, 0.5)',
         secondary_t: 'rgba(0,0,0,0.85)'
       },
+      keyframes: {
+        slide: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(0)' },
+        },
+        slideForward: {
+          '0%': {
+            transform: 'scale(0.5) translateZ(-100px)',
+            opacity: 0,
+          },
+          '100%': {
+            transform: 'scale(1) translateZ(0)',
+            opacity: 1,
+          },
+        },
+      },
+      animation: {
+        slide: 'slide 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1500ms both',
+        slideForward: 'slideForward 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both',
+      },
     },
   },
   plugins: [],
