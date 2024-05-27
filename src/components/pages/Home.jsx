@@ -12,10 +12,10 @@ const Home = () => {
         <img src="src/img/one.png" alt="aluminum image" className='transition-transform'/>
       </div>
     
-      <div className='bg-gray-400 text-white mb-10 w-screen'>
-        <p className='text-center text-5xl text-white py-14 fony-bold font-bold'>Why Choose Us?</p>
+      <div className='bg-black text-white mb-10 w-screen'>
+        <p className='text-center text-5xl text-primary py-14 fony-bold font-bold'>Why Choose Us?</p>
 
-        <div className='grid grid-cols-3 gap-x-8 place-items-center p-16 px-16'>
+        <div className='grid grid-cols-3 gap-x-8 place-items-center pb-16 pt-10 px-16'>
 
           <div className='border-r-2 border-white'>
             <img className='w-32 p-2 mx-auto hover:w-36 duration-400' src="src/img/onewhy.png" alt="commitment image" />
