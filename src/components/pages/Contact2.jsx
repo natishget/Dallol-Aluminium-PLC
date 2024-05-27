@@ -33,7 +33,7 @@ const Contact2 = () => {
                             focus:outline-none focus:border-trans focus:ring-1 focus:ring-slate-400 duration-500"/><br />
                     <textarea name="" id="" placeholder="Message" className="border-b border-tertiary py-3 px-2 md:w-2/5 w-4/5 mb-4
                             focus:outline-none focus:border-trans focus:ring-1 focus:ring-slate-400 duration-500"></textarea><br />
-                    <button className="border-b border-tertiary font-bold md:w-2/5 mb-10 w-4/5 hover:bg-tertiary  hover:text-primary duration-500 tracking-widest py-3">Send</button>
+                    <button className="border-b border-tertiary font-bold md:w-2/5 mb-10 w-4/5 hover:bg-tertiary  hover:text-primary duration-500 tracking-widest py-3">SEND</button>
                 </form>
                 {/* the info box */}
                 <div ref={elementRef} className={`md:absolute md:right-0 md:top-28 font-bold text-sm pl-10 py-12 border
