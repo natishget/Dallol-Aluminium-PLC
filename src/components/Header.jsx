@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   return (
-    <div className='text-gray-800 w-screen font-sans fixed'>
+    <div className='text-gray-800 w-screen font-sans fixed z-50'>
 
       <div className='w-screen bg-white/30 background-blur-lg'>
         <div className='bg-white/30 background-blur-lg flex-1 flex justify-between pt-4 pb-4'>

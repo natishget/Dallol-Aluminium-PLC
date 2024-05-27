@@ -37,7 +37,7 @@ const Footer = () => {
       </div>
       {/* second div */}
 
-      <div className='w-full md:flex justify-center items-center py-8 text-quaternary font-bold px-10'>
+      <div className='w-full md:flex md:justify-center md:items-center py-8 text-quaternary font-bold px-10'>
           <div className='flex-col md:w-1/3 w-full justify-center items-center '>
             <img src={email} alt="" className='w-6 pb-1' />
             <p className='text-primary'>MAIL</p> 
