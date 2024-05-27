@@ -24,7 +24,7 @@ const Header = () => {
 
           <div className='flex justify-center pl-6'>
             <img src={logo} alt="" className='w-12 h-12' />
-            <h3 className='pl-1 flex items-center text-lg font-semibold'>Dallol Aluminium</h3>
+            <h3 className='pl-1 flex items-center text-lg font-semibold'>Dallol Aluminum</h3>
           </div>
 
           <div className='flex pt-2 font-semibold text-lg pr-6 items-center'>
