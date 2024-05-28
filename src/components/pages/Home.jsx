@@ -17,21 +17,21 @@ const Home = () => {
 
         <div className='grid grid-cols-3 gap-x-8 place-items-center pb-16 pt-10 px-16'>
 
-          <div className='border-r-2 border-white'>
+          <div className='border-r-2 border-primary'>
             <img className='w-32 p-2 mx-auto hover:w-36 duration-400' src="src/img/onewhy.png" alt="commitment image" />
-            <h3 className='font-bold text-2xl text-center'>Commitment to Excellence</h3>
+            <h3 className='font-bold text-2xl text-center text-primary'>Commitment to Excellence</h3>
             <p className='mr-8 mt-4 text-center text-gray-200'>Dallol Aluminum is renowned for its commitment to excellence, transparency, and exceptional customer service, ensuring that customers receive the finest regulation-compliant engineering designed for over 8000 hours per annum duty.</p>
           </div>
 
           <div className=''>
             <img className='w-32 mx-auto hover:w-36 duration-300' src="src/img/twowhy.png" alt="commitment image" />
-            <h3 className='font-bold text-2xl text-center'>Industry Expertise</h3>
+            <h3 className='font-bold text-2xl text-center text-primary'>Industry Expertise</h3>
             <p className='mt-4 text-center text-gray-200'>With a legacy dating back to 1985, Dallol Aluminum boasts a dedicated team of planners, designers, engineers, and administration professionals who have expertly delivered superior aluminum solutions for major businesses across various regions.</p>
           </div>
 
-          <div className='border-l-2 border-white'>
+          <div className='border-l-2 border-primary'>
             <img className='w-28 mx-auto hover:w-36 duration-300' src="src/img/threewhy.png" alt="quality image" />
-            <h3 className='font-bold text-2xl text-center'>Quality Assurance</h3>
+            <h3 className='font-bold text-2xl text-center text-primary'>Quality Assurance</h3>
             <p className='ml-8 mt-4 text-center text-gray-200'>The company maintains quality control as one of the pillars of its solutions, ensuring the highest quality. Our quality assurance practices are in every aspect of our operations, ensuring that our customers receive products of the highest standard.</p>
           </div>
         </div>
