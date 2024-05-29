@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
       {/* <!-- Hero --> */}
-      <div className="bg-neutral-900">
+      <div className="bg-[#1f1f22]">
         <div className="max-w-5xl mx-auto px-4 xl:px-0 pt-24 lg:pt-32 pb-24">
           <h1 className="font-semibold text-white text-5xl md:text-6xl">
             <span className="text-[#ff0] ">Dallol Aluminums:</span> Forging
@@ -134,7 +134,7 @@ const About = () => {
       </div>
 
       {/* features section 2 */}
-      <div className="bg-neutral-900">
+      <div className="bg-[#1f1f22]">
         <div className="max-w-[85rem]  px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
           {/* <!-- Title --> */}
           <div className="mx-auto max-w-2xl mb-8 lg:mb-14 text-center">
