@@ -2,18 +2,21 @@ import React from 'react'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from "../img/logo.png"
+import { useTranslation } from 'react-i18next';
 
 const Header = () => {
 
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState('ENG'); // Set the default selected option here
-
+  const { i18n } = useTranslation();
   const options = ['ENG', 'AMH'];
 
   const handleOptionSelect = (option) => {
     setSelectedOption(option);
     setIsOpen(false);
+    i18n.changeLanguage(option)
   };
+
 
   return (
     <div className='text-gray-800 w-screen font-sans fixed z-50'>
@@ -64,7 +67,7 @@ const Header = () => {
                     {options.map((option) => (
                       <button
                         key={option}
-                        onClick={() => handleOptionSelect(option)}
+                        onClick={() => handleOptionSelect(option) }
                         className={`block w-full text-center px-4 py-2 text-sm text-black ${selectedOption === option ? 'bg-black text-primary' : 'hover:bg-primary text-gray-800'}`}
                         role="menuitem"
                       >

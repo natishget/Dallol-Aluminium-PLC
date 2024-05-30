@@ -1,0 +1,29 @@
+{
+    "contact" :{
+            "header": "Contact Us",
+            "paragraph": "Feel free to contact us any time. we will get back to you as soon as we can.",
+            "name": "Name",
+            "email": "Email", 
+            "phone": "Phone", 
+            "text": "Message",
+            "send": "SEND", 
+            "info": "Info",
+            "hour": "We are open from Monday to Friday 8:00AM - 6:00PM  & Saturday 8:00AM - 4:00PM" ,
+            "location": "22 Town Square Mall 1st Floor Megenagna to Signal Upper Nile - Real estate 1st Floor"
+    },
+    
+
+    "footer" :{
+        "header": "Dallol",
+        "getintouch": "Get in Touch",
+        "mail": "MAIL",  
+        "call": "CALL",
+        "find": "FIND US",
+        "location": "22 Town Square Mall 1st Floor",
+        "location1": "Megenagna to Signal Upper Nile -",
+        "location2": "Real estate 1st Floor"
+    }
+
+
+
+}
