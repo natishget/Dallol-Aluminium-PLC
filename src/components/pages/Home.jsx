@@ -2,10 +2,10 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='w-screen font-sans'>
+    <div className='w-full font-sans'>
 
-      <div className='p-6 pt-44 flex w-screen justify-around text-sans pb-14'> 
-      <div className='w-1/2'>
+      <div className='p-6 pt-44 md:flex w-full justify-around text-sans pb-14'> 
+      <div className='md:w-1/2 md:'>
       <p className='text-6xl font-bold text-gray-700'>Dallol Alluminum</p>
       <p className='mt-4 text-gray-600'>Welcome to Dallol Aluminum - where innovation meets excellence in aluminum manufacturing. We are committed to delivering high-quality products that meet the needs of our customers. With a focus on precision and sustainability, we strive to exceed industry standards and provide solutions that drive progress in various sectors. Explore our range of premium aluminum products and experience the difference with Dallol Aluminum...</p>
       <button className='hover:bg-black bg-primary text-gray-900 font-bold hover:text-primary font-bold hover:font-bold py-2 mt-4 px-5 shadow-md transition duration-300 ease-in-out transform hover:scale-105'>Learn More</button>
@@ -13,7 +13,7 @@ const Home = () => {
         <img src="src/img/one.png" alt="aluminum image" className='transition-transform'/>
       </div>
     
-      <div className='bg-black text-white w-screen'>
+      <div className='bg-black text-white w-full'>
         <p className='text-center text-5xl text-primary py-14 fony-bold font-bold brdere-r-6 '>Why Choose Us?</p>
 
         <div className='grid grid-cols-3 gap-x-8 place-items-center pb-16 pt-10 px-16'>
@@ -70,7 +70,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='pl-6 pt-10 flex w-screen justify-around text-sans'> 
+      <div className='pl-6 pt-10 flex w-full justify-around text-sans'> 
       <div className='pl-10'>
       <p className='text-4xl font-bold text-gray-700'>Discover the Power of Aluminum: Request Your Personalized Quote Today!</p>
       <p className='mt-4 text-gray-600'>Ready to elevate your projects with the strength and versatility of premium aluminum products? Explore our extensive range of high-quality aluminum solutions, engineered to meet your diverse needs. Take the first step towards enhancing your designs and constructions by requesting a personalized quote today. Let our experts guide you through our exceptional aluminum offerings, tailored to elevate your vision to new heights. Experience the power of aluminum – contact us now to unlock a world of possibilities!</p>
