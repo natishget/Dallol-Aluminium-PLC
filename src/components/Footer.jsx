@@ -8,6 +8,7 @@ import xtwitter from '../assets/xtwitter.svg'
 import email from '../assets/email.svg'
 import location from '../assets/location.svg'
 import phone from '../assets/phone.svg'
+import E2N from '../assets/E2N-2.png'
 
 import { useTranslation } from "react-i18next"
 
@@ -69,6 +70,20 @@ const Footer = () => {
 
         <p> &copy; 2024 Dallol Aluminum All rights Reserved</p>
       </div>
+      <div class="flex md:flex-row justify-between items-center bg-gray-100 w-full md:px-4 text-gray-800">
+    <div class="font-bold flex items-center md:text-base text-sm">
+      Powered By
+      <div class="text-orange-400 flex md:text-base text-sm">
+        <span>
+          <img class="w-3 pt-1 ml-2" src={E2N} alt="E2N LOGO" />
+        </span>
+        2N
+      </div>
+    </div>
+    <a class="hover:text-orange-400 font-bold pr-2 text-sm md:text-base" href="tg://resolve?domain=E2NwebDesign">
+      Get in touch with us
+    </a>
+  </div>
     </div>
   )
 }
