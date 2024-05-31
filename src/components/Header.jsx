@@ -77,7 +77,7 @@ const Header = () => {
             </div>
           </nav>
 
-          <div className="flex md:hidden items-center pr-6 justify-end">
+          <div className="flex md:hidden items-center pr-4 justify-end">
           <div className="w-16 mr-2">
             {/* AMH and ENG */}
               <div className=''>
