@@ -8,8 +8,9 @@ const Header = () => {
 
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState('ENG'); // Set the default selected option here
-  const { i18n } = useTranslation();
+
   const options = ['ENG', 'AMH'];
+  const [t, i18n] =  useTranslation("global")
 
   const handleOptionSelect = (option) => {
     setSelectedOption(option);
@@ -26,14 +27,14 @@ const Header = () => {
 
           <div className='flex justify-center pl-6'>
             <img src={logo} alt="" className='w-12 h-12' />
-            <h3 className='pl-1 flex items-center text-lg font-semibold'>Dallol Aluminium</h3>
+            <h3 className='pl-1 flex items-center text-lg font-semibold'>{t("header.header")}</h3>
           </div>
 
           <div className='flex pt-2 font-semibold text-lg pr-6 items-center'>
-            <Link to="" className='pr-3'> Home </Link>
-            <Link to="about" className='pr-3'> About Us</Link>
-            <Link to="service" className='pr-3'> Services </Link>
-            <Link to="contact" className='pr-3'> Contact Us</Link>
+            <Link to="" className='pr-3'>{t("header.home")} </Link>
+            <Link to="about" className='pr-3'> {t("header.about")}</Link>
+            <Link to="service" className='pr-3'> {t("header.service")} </Link>
+            <Link to="contact" className='pr-3'> {t("header.contact")}</Link>
 
             <div className="w-20">
               <div>

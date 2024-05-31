@@ -28,6 +28,14 @@ export default {
           '0%': { transform: 'translateX(-100%)' },
           '100%': { transform: 'translateX(0)' },
         },
+        slideToLeft: {
+          '0%': { 
+            transform: 'translateX(100%)' 
+          },
+          '100%': { 
+            transform: 'translateX(0)' 
+          },
+        },
         slideForward: {
           '0%': {
             transform: 'scale(0.5) translateZ(-100px)',
@@ -40,8 +48,12 @@ export default {
         },
       },
       animation: {
-        slide: 'slide 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1500ms both',
-        slideForward: 'slideForward 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both',
+        slide: 'slide 1500ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
+        slide2: 'slide 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
+        slideForward: 'slideForward 1500ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
+        slideToLeft: 'slideToLeft 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
+        slideToLeft1: 'slideToLeft 1500ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
+        slideToLeft2: 'slideToLeft 2s cubic-bezier(0.250, 0.460, 0.450, 0.940)  both',
       },
     },
   },

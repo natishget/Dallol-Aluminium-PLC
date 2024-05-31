@@ -14,7 +14,7 @@ import { useTranslation } from "react-i18next"
 
 const Contact2 = () => {
     const [elementRef, isVisible] = useIntersectionObserver({
-        threshold: 0.1, // Adjust the threshold as needed
+        threshold: 0.0, // Adjust the threshold as needed
       });
 
       const [t, i18n] =  useTranslation("global")
