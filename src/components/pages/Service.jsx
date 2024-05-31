@@ -56,7 +56,7 @@ const content = [
 const Service = () => {
   return (
     <div className="">
-      <div className="-mx-4 -mb-16 flex flex-wrap ">
+      <div className="-mx-4 -mb-12 flex flex-wrap ">
         <div className="w-full px-4">
           <div className="mx-auto px-3 mt-5 max-w-[510px] text-center lg:mb-20">
             <span className="mb-2 block text-[#dbc746] text-lg font-semibold text-primary">
