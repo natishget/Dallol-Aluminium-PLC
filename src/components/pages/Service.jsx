@@ -66,8 +66,8 @@ const Service = () => {
               What We Offer
             </h2>
             <p className="text-base text-body-color dark:text-dark-6">
-              There are many variations of passages of Lorem Ipsum available but
-              the majority have suffered alteration in some form.
+              At Dallol Aluminums, we provide a wide range of aluminum products
+              and services tailored to meet diverse industry needs.
             </p>
           </div>
         </div>
@@ -87,28 +87,8 @@ const Service = () => {
         </div>
       </div>
       <Products />
-      {/* <StickyScroll className="bg-white" content={content} /> */}
-      {/* <Offer /> */}
     </div>
   );
 };
 
 export default Service;
-
-const ServiceCard = ({ icon, title, details }) => {
-  return (
-    <>
-      <div className="w-full px-4 md:w-1/2 lg:w-1/3">
-        <div className="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
-          <div className="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
-            {icon}
-          </div>
-          <h4 className="mb-[14px] text-2xl font-semibold text-dark dark:text-white">
-            {title}
-          </h4>
-          <p className="text-body-color dark:text-dark-6">{details}</p>
-        </div>
-      </div>
-    </>
-  );
-};
