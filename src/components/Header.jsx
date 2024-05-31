@@ -4,6 +4,7 @@ import logo from "../img/logo.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // Add this line
   const [selectedOption, setSelectedOption] = useState('ENG');
 
   const options = ['ENG', 'AMH'];
@@ -16,6 +17,11 @@ const Header = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
 
   return (
     <div className="text-gray-800 w-full font-sans fixed z-50">
@@ -80,7 +86,7 @@ const Header = () => {
           <div className="flex md:hidden items-center pr-4 justify-end">
           <div className="w-16 mr-2">
             {/* AMH and ENG */}
-              <div className=''>
+            <div>
                 <button
                   type="button"
                   className="inline-flex justify-center rounded-lg border border-white/40 bg-primary px-2 py-1 text-sm font-semibold text-gray-800 focus:outline-none"
@@ -125,9 +131,9 @@ const Header = () => {
             {/* burger and close */}
             <button
               className="rounded-lg p-2 focus:outline-none"
-              onClick={toggleMenu}
+              onClick={toggleMobileMenu}
             >
-              {isOpen ? (
+              {isMobileMenuOpen ? (
                 <svg
                   className="h-7 w-7 text-gray-800"
                   fill="none"
@@ -160,12 +166,12 @@ const Header = () => {
           </div>
         </div>
 
-        {isOpen && (
-          <div className="bg-white/50 background-blur-2xl px-6 py-4 md:hidden text-gray-700">
-            <Link to="" className="block py-2 font-semibold text-lg"> Home </Link>
-            <Link to="about" className="block py-2 font-semibold text-lg"> About Us</Link>
-            <Link to="service" className="block py-2 font-semibold text-lg"> Services </Link>
-            <Link to="contact" className="block py-2 font-semibold text-lg"> Contact Us</Link>
+        {isMobileMenuOpen && (
+          <div className="bg-white/80 background-blur-2xl px-6 py-4 md:hidden text-gray-700 text-sans">
+            <Link to="" className="block py-2 font-semibold text-lg text-center"> Home </Link>
+            <Link to="about" className="block py-2 font-semibold text-lg text-center"> About Us</Link>
+            <Link to="service" className="block py-2 font-semibold text-lg text-center"> Services </Link>
+            <Link to="contact" className="block py-2 font-semibold text-lg text-center"> Contact Us</Link>
           </div>
         )}
       </div>
