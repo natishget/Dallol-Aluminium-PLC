@@ -2,10 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-#root{
-    padding: 0px;
-    margin: 0px;
-    text-align: none;
+#root {
+  padding: 0px;
+  margin: 0px;
+
+  text-align: none;
 }
 
 body{
@@ -32,3 +33,4 @@ body{
     background: rgb(253, 225, 47); 
     border-radius: 100%;
   }
+ 

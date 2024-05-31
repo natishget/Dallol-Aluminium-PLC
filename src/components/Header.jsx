@@ -4,20 +4,20 @@ import { Link } from 'react-router-dom';
 import logo from "../img/logo.png"
 import { useTranslation } from 'react-i18next';
 
-const Header = () => {
 
+const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState('ENG'); // Set the default selected option here
+  const [selectedOption, setSelectedOption] = useState("ENG"); // Set the default selected option here
 
   const options = ['ENG', 'AMH'];
   const [t, i18n] =  useTranslation("global")
+
 
   const handleOptionSelect = (option) => {
     setSelectedOption(option);
     setIsOpen(false);
     i18n.changeLanguage(option)
   };
-
 
   return (
     <div className='text-gray-800 w-screen font-sans fixed z-50'>
@@ -86,9 +86,7 @@ const Header = () => {
       </div>
 
     </div>
+  );
+};
 
-
-  )
-}
-
-export default Header
+export default Header;
