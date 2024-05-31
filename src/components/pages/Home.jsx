@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className='w-full font-sans'>
 
-      <div className='lg:p-16 p-10 lg:pt-44 pt-36 lg:grid grid-cols-2 w-full text-sans pb-14'>
+      <div className='lg:p-16 p-10 lg:pt-44 pt-32 lg:grid grid-cols-2 w-full text-sans pb-14'>
         <div className='lg:pb-0 pb-14'>
           <p className='text-6xl font-bold text-gray-700'>Dallol Alluminum</p>
           <p className='mt-4 text-gray-600'>Welcome to Dallol Aluminum - where innovation meets excellence in aluminum manufacturing. We are committed to delivering high-quality products that meet the needs of our customers. With a focus on precision and sustainability, we strive to exceed industry standards and provide solutions that drive progress in various sectors. Explore our range of premium aluminum products and experience the difference with Dallol Aluminum...</p>
