@@ -41,7 +41,7 @@ const Home = () => {
       </div>
 
       <div className='grid lg:grid-cols-4 text-gray-600 bg-gray-100 md:p-14 p-8 lg:gap-x-6'>
-        <div className='lg:my-auto lg:mb-0 mb-12'>
+        <div className='lg:my-auto mb-12'>
           <h3 className='font-bold text-gray-800 text-xl'>Crafted with excellent material</h3>
           <p>Dallol Aluminium products embody meticulous attention to quality and precision, ensuring unparalleled durability and performance in every application.</p>
           <button className='hover:bg-black bg-primary text-gray-900 font-bold hover:text-primary font-bold hover:font-bold py-2 mt-4 px-4 shadow-lg rounded-xl transition duration-300 ease-in-out transform hover:scale-105'>Explore</button>
