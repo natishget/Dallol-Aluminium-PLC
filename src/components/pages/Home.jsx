@@ -6,7 +6,7 @@ const Home = () => {
 
       <div className='lg:p-16 p-10 lg:pt-44 pt-32 lg:grid grid-cols-2 w-full text-sans pb-14'>
         <div className='lg:pb-0 pb-14'>
-          <p className='text-6xl font-bold text-gray-700'>Dallol Alluminum</p>
+          <p className='md:text-6xl text-5xl font-bold text-gray-700'>Dallol Alluminum</p>
           <p className='mt-4 text-gray-600'>Welcome to Dallol Aluminum - where innovation meets excellence in aluminum manufacturing. We are committed to delivering high-quality products that meet the needs of our customers. With a focus on precision and sustainability, we strive to exceed industry standards and provide solutions that drive progress in various sectors. Explore our range of premium aluminum products and experience the difference with Dallol Aluminum...</p>
           <button className='hover:bg-black bg-primary text-gray-900 font-bold hover:text-primary font-bold hover:font-bold py-2 mt-4 px-5 shadow-md transition duration-300 ease-in-out transform hover:scale-105'>Learn More</button>
         </div>

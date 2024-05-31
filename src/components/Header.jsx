@@ -22,8 +22,8 @@ const Header = () => {
       <div className="md:w-[90%] w-full mx-auto rounded-md shadow-slate-300 shadow-xl bg-white/30 background-blur-lg">
         <div className="bg-white/50 background-blur-lg flex justify-between pt-4 pb-4">
           <div className="flex justify-center pl-6">
-            <img src={logo} alt="" className="w-12 h-12" />
-            <h3 className="pl-1 flex items-center text-lg font-semibold">Dallol Aluminum</h3>
+            <img src={logo} alt="" className="md:w-12 md:h-12 w-11 h-11 my-auto" />
+            <h3 className="pl-1 flex items-center md:text-lg text-base font-semibold">Dallol Aluminum</h3>
           </div>
 
           <nav className="hidden md:flex pt-2 font-semibold text-lg pr-6 items-center">
@@ -79,6 +79,7 @@ const Header = () => {
 
           <div className="flex md:hidden items-center pr-6 justify-end">
           <div className="w-16 mr-2">
+            {/* AMH and ENG */}
               <div className=''>
                 <button
                   type="button"
@@ -121,6 +122,7 @@ const Header = () => {
                 </div>
               )}
             </div>
+            {/* burger and close */}
             <button
               className="rounded-lg p-2 focus:outline-none"
               onClick={toggleMenu}
