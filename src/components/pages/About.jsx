@@ -1,9 +1,8 @@
 import React from "react";
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "react-i18next";
 
 const About = () => {
-
-  const [t, i18n] =  useTranslation("global")
+  const [t, i18n] = useTranslation("global");
 
   return (
     <div>
@@ -11,11 +10,12 @@ const About = () => {
       <div className="bg-[#1f1f22]">
         <div className="max-w-5xl mx-auto px-4 xl:px-0 pt-24 lg:pt-32 pb-24">
           <h1 className="font-semibold text-white text-5xl md:text-6xl">
-            <span className="text-[#ff0] ">{t("about.header")}</span> {t("about.forging")}
+            <span className="text-[#ff0] ">{t("about.header")}</span>{" "}
+            {t("about.forging")}
           </h1>
           <div className="max-w-4xl">
             <p className="mt-5 text-neutral-400 text-lg">
-            {t("about.welcome")}
+              {t("about.welcome")}
             </p>
           </div>
         </div>
@@ -40,10 +40,10 @@ const About = () => {
               {/* <!-- Title --> */}
               <div className="space-y-2 md:space-y-4">
                 <h2 className="font-bold text-3xl lg:text-4xl text-gray-800 ">
-                {t("about.confront")}
+                  {t("about.confront")}
                 </h2>
                 <p className="text-gray-500 dark:text-neutral-500">
-                {t("about.addition")}
+                  {t("about.addition")}
                 </p>
               </div>
               {/* <!-- End Title --> */}
@@ -60,9 +60,9 @@ const About = () => {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
                       <polyline points="20 6 9 17 4 12" />
                     </svg>
@@ -84,16 +84,19 @@ const About = () => {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
                       <polyline points="20 6 9 17 4 12" />
                     </svg>
                   </span>
 
                   <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-                  {t("about.robust")} <span className="font-bold">{t("about.functionalities")}</span>
+                    {t("about.robust")}{" "}
+                    <span className="font-bold">
+                      {t("about.functionalities")}
+                    </span>
                   </span>
                 </li>
 
@@ -107,16 +110,16 @@ const About = () => {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
                       <polyline points="20 6 9 17 4 12" />
                     </svg>
                   </span>
 
                   <span className="text-sm sm:text-base text-gray-500 dark:text-neutral-500">
-                  {t("about.focus")}
+                    {t("about.focus")}
                   </span>
                 </li>
               </ul>
@@ -134,11 +137,9 @@ const About = () => {
           {/* <!-- Title --> */}
           <div className="mx-auto max-w-2xl mb-8 lg:mb-14 text-center">
             <h2 className="text-3xl lg:text-4xl text-gray-200 font-bold">
-            {t("about.forgtool")}
+              {t("about.forgtool")}
             </h2>
-            <p className="mt-3 text-gray-400">
-            {t("about.unleash")}
-            </p>
+            <p className="mt-3 text-gray-400">{t("about.unleash")}</p>
           </div>
           {/* <!-- End Title --> */}
 
@@ -154,9 +155,9 @@ const About = () => {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <rect width="10" height="14" x="3" y="8" rx="2" />
                 <path d="M5 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-2.4" />
@@ -164,7 +165,7 @@ const About = () => {
               </svg>
               <div className="mt-2 sm:mt-6">
                 <h3 className="text-lg font-semibold text-gray-300">
-                {t("about.adaptable")}
+                  {t("about.adaptable")}
                 </h3>
               </div>
             </div>
@@ -180,9 +181,9 @@ const About = () => {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <path d="M20 7h-9" />
                 <path d="M14 17H5" />
@@ -207,16 +208,16 @@ const About = () => {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2v5Z" />
                 <path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1" />
               </svg>
               <div className="mt-2 sm:mt-6">
                 <h3 className="text-lg font-semibold text-gray-300">
-                {t("about.dedicated")}
+                  {t("about.dedicated")}
                 </h3>
               </div>
             </div>

@@ -41,7 +41,7 @@ export default function Products() {
 
   return (
     <div className="">
-      <div className="w-[80%] md:w-[75%] mx-auto grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+      <div className="w-[80%] md:w-[75%] mx-auto mb-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
         {data.map(({ imageLink }, index) => (
           <div className="overflow-hidden rounded-lg" key={index}>
             <img
