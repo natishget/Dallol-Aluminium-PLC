@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
 import logo from "../img/logo.png";
@@ -217,9 +217,7 @@ const Header = () => {
             <button
               ref={toggleButtonRef}
               className="rounded-lg p-2 focus:outline-none"
-              onClick={() => {
-                setIsMobileMenuOpen(!isMobileMenuOpen);
-              }}
+              onClick={toggleMobileMenu}
             >
               {isMobileMenuOpen ? (
                 <svg
