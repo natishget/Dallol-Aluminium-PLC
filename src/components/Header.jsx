@@ -88,19 +88,19 @@ const Header = () => {
           </div>
 
           <nav className="hidden md:flex pt-2 font-semibold text-lg pr-6 items-center">
-            <Link to="" className="pr-3 text-yellow-400">
+            <Link to="/" className="pr-3 text-yellow-400">
               {" "}
               {t("header.home")}{" "}
             </Link>
-            <Link to="about" className="pr-3 text-yellow-400">
+            <Link to="/about" className="pr-3 text-yellow-400">
               {" "}
               {t("header.about")}
             </Link>
-            <Link to="service" className="pr-3 text-yellow-400">
+            <Link to="/service" className="pr-3 text-yellow-400">
               {" "}
               {t("header.service")}{" "}
             </Link>
-            <Link to="contact" className="pr-3 text-yellow-400">
+            <Link to="/contact" className="pr-3 text-yellow-400">
               {" "}
               {t("header.contact")}
             </Link>
@@ -262,7 +262,7 @@ const Header = () => {
                 closeNavBar();
                 scrollToTOp();
               }}
-              to=""
+              to="/"
               className="block border-b-2 border-yellow-200 py-2 font-semibold text-lg text-center"
             >
               {" "}
@@ -273,7 +273,7 @@ const Header = () => {
                 closeNavBar();
                 scrollToTOp();
               }}
-              to="about"
+              to="/about"
               className="block border-b-2 border-yellow-200 py-2 font-semibold text-lg text-center"
             >
               {" "}
@@ -284,7 +284,7 @@ const Header = () => {
                 closeNavBar();
                 scrollToTOp();
               }}
-              to="service"
+              to="/service"
               className="block border-b-2 border-yellow-200 py-2 font-semibold text-lg text-center"
             >
               {" "}
@@ -295,7 +295,7 @@ const Header = () => {
                 closeNavBar();
                 scrollToTOp();
               }}
-              to="contact"
+              to="/contact"
               className="block border-b-2 border-yellow-200 py-2 font-semibold text-lg text-center"
             >
               {" "}
