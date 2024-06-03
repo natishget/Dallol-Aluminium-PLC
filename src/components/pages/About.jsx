@@ -1,4 +1,9 @@
 import { useTranslation } from "react-i18next";
+import aboutF from "../../assets/aboutF.jpg";
+import aboutL1 from "../../assets/aboutL1.jpg";
+import aboutL2 from "../../assets/aboutL2.jpg";
+import aboutP1 from "../../assets/aboutP1.jpg";
+import aboutP2 from "../../assets/aboutP2.jpg";
 
 const About = () => {
   const [t, i18n] = useTranslation("global");
@@ -27,8 +32,8 @@ const About = () => {
         <div className="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
           <div>
             <img
-              className="rounded-xl"
-              src="https://images.unsplash.com/photo-1648737963503-1a26da876aca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&h=900&q=80"
+              className="rounded-xl shadow-2xl shadow-yellow-200"
+              src={aboutF}
               alt="Image Description"
             />
           </div>
@@ -229,7 +234,16 @@ const About = () => {
             <div className="hidden md:block col-span-4 md:col-span-3">
               <img
                 className="rounded-xl"
-                src="https://images.unsplash.com/photo-1606868306217-dbf5046868d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1981&q=80"
+                src={aboutL1}
+                alt="Image Description"
+              />
+            </div>
+            {/* <!-- End Col --> */}
+
+            <div className="col-span-4 h-[80%] overflow-hidden rounded-xl md:col-span-3">
+              <img
+                className="rounded-xl "
+                src={aboutP1}
                 alt="Image Description"
               />
             </div>
@@ -238,7 +252,7 @@ const About = () => {
             <div className="col-span-4 md:col-span-3">
               <img
                 className="rounded-xl"
-                src="https://images.unsplash.com/photo-1587613991119-fbbe8e90531d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1003&q=80"
+                src={aboutP2}
                 alt="Image Description"
               />
             </div>
@@ -247,16 +261,7 @@ const About = () => {
             <div className="col-span-4 md:col-span-3">
               <img
                 className="rounded-xl"
-                src="https://images.unsplash.com/photo-1554295405-abb8fd54f153?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=652&q=80"
-                alt="Image Description"
-              />
-            </div>
-            {/* <!-- End Col --> */}
-
-            <div className="col-span-4 md:col-span-3">
-              <img
-                className="rounded-xl"
-                src="https://images.unsplash.com/photo-1640622300473-977435c38c04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80"
+                src={aboutL2}
                 alt="Image Description"
               />
             </div>

@@ -2,18 +2,18 @@ import { useTranslation } from "react-i18next"
 import { Link } from "react-router-dom";
 
 const Cta = () => {
-  const [t, i18n] =  useTranslation("global")
+  const [t, i18n] = useTranslation("global");
   return (
     <div>
       <div className="bg-[#28292D] py-6 sm:py-8 lg:py-12">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
           <div className="mx-auto flex max-w-2xl flex-col items-center text-center">
             <p className="mb-3 font-semibold text-yellow-400 md:mb-6 md:text-lg xl:text-xl">
-            {t("service.ready")}
+              {t("service.ready")}
             </p>
 
             <h1 className="mb-8 text-3xl font-bold text-white sm:text-4xl md:mb-12 md:text-5xl">
-               {t("service.revolutionize")}
+              {t("service.revolutionize")}
             </h1>
 
             <div className="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center">
