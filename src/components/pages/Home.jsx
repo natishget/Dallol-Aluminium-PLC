@@ -2,6 +2,16 @@ import React, { useState } from 'react'
 import { useTranslation } from "react-i18next"
 import ScrollTrigger from 'react-scroll-trigger';
 import { Link } from 'react-router-dom';
+import One from '../../img/one.png';
+import ImgOne from '../../img/oneimg.png';
+import ImgTwo from '../../img/twoimg.png';
+import ImgThree from '../../img/threeimg.png';
+import WhyOne from '../../img/onewhy.png';
+import WhyTwo from '../../img/twowhy.png';
+import WhyThree from '../../img/threewhy.png';
+import ImgFour from '../../img/fourimg.png'
+
+
 
 const Home = () => {
   const [visible, setVisible] = useState(false);
@@ -68,7 +78,7 @@ const Home = () => {
         </div>
         <div className="md:p-6 my-auto flex justify-end">
           <img
-            src="src/img/one.png"
+            src={One}
             alt="aluminum image"
             className="my-auto lg:mx-0 mx-auto"
           />
@@ -84,7 +94,7 @@ const Home = () => {
           <div className="md:border-r-2 md:pb-0 pb-6 border-primary">
             <img
               className="w-28 mx-auto hover:w-32 duration-300"
-              src="src/img/onewhy.png"
+              src={WhyOne}
               alt="commitment image"
             />
             <h3 className="md:mr-9 font-bold md:text-2xl text-xl text-center text-primary pt-8 mx-auto">
@@ -98,7 +108,7 @@ const Home = () => {
           <div className="md:pt-0 pt-6 md:pb-0 pb-6">
             <img
               className="w-32 mx-auto hover:w-36 duration-300"
-              src="src/img/twowhy.png"
+              src={WhyTwo}
               alt="commitment image"
             />
             <h3 className="font-bold md:text-2xl text-xl text-center text-primary pt-4">
@@ -112,7 +122,7 @@ const Home = () => {
           <div className="md:border-l-2 border-primary md:pt-0 pt-6">
             <img
               className="w-32 mx-auto hover:w-36 duration-300"
-              src="src/img/threewhy.png"
+              src={WhyThree}
               alt="quality image"
             />
             <h3 className="md:ml-8 font-bold md:text-2xl text-xl text-center text-primary pt-4">
@@ -141,7 +151,7 @@ const Home = () => {
 
         <ScrollTrigger onEnter={onEnterViewport} onExit={onExitViewport}>
         <div className={`rounded-xl bg-gray-200 lg:mb-0 mb-12 ${visible ? 'animate-slideToLeft' : 'opacity-0'}`}>
-          <img className='rounded-t-xl lg:w-84 lg:h-64' src="src/img/oneimg.png" alt="" />
+          <img className='rounded-t-xl lg:w-84 lg:h-64' src={ImgOne} alt="" />
           <div>
             <h3 className="font-bold text-gray-800 text-xl pt-4 px-4">
               {t("home.card")}
@@ -153,7 +163,7 @@ const Home = () => {
 
         <ScrollTrigger onEnter={onEnterViewport1} onExit={onExitViewport1}>
         <div className={`rounded-xl bg-gray-200 lg:mb-0 mb-12 ${visible1 ? 'animate-slideToLeft1' : 'opacity-0'}`}>
-          <img className='rounded-t-xl lg:w-84 lg:h-64' src="src/img/twoimg.png" alt="" />
+          <img className='rounded-t-xl lg:w-84 lg:h-64' src={ImgTwo} alt="" />
           <div>
             <h3 className="font-bold text-gray-800 text-xl pt-4 px-4">
               {t("home.card1")}
@@ -165,7 +175,7 @@ const Home = () => {
 
         <ScrollTrigger onEnter={onEnterViewport2} onExit={onExitViewport2}>
         <div className={`rounded-xl bg-gray-200 lg:mb-0 ${visible2 ? 'animate-slideToLeft2' : 'opacity-0'}`}>
-          <img className='rounded-t-xl mx-auto lg:w-84 lg:h-64' src="src/img/threeimg.png" alt="" />
+          <img className='rounded-t-xl mx-auto lg:w-84 lg:h-64' src={ImgThree} alt="" />
           <div>
             <h3 className="font-bold text-gray-800 text-xl pt-4 px-4">
               {t("home.card2")}
