@@ -196,7 +196,7 @@ const Home = () => {
               py-2 mt-4 px-5 shadow-md transition duration-300  ease-in-out transform hover:scale-105'>{t("home.button2")}</Link>
         </div>
         <div className="pl-12 pt-14 -mt-32 lg:mt-0 lg:pt-0 lg:pl-0 flex justify-end lg:flex-none lg:pr-0">
-          <img src="src/img/fourimg.png" alt="aluminum image" className="" />
+          <img src={ImgFour} alt="aluminum image" className="" />
         </div>
       </div>
     </div>
