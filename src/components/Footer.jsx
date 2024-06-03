@@ -56,14 +56,14 @@ const Footer = () => {
           <img src={phone} alt="" className="w-5 pb-1" />
           <p className="text-primary">{t("footer.call")}</p>
           <a
-            href="tell:+251911823271"
+            href="tel: +251911823271"
             className="md:text-sm hover:text-primary hover:text-xl duration-500"
           >
             +251 911 82 32 71
           </a>
           <br />
           <a
-            href="tell:+251903232425"
+            href="tel: +251903232425"
             className="md:text-sm hover:text-primary hover:text-xl duration-500"
           >
             +251 903 23 24 25

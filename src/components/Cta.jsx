@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 const Cta = () => {
@@ -18,7 +18,7 @@ const Cta = () => {
 
             <div className="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center">
               <a
-                href="tell:+251911823271"
+                href="tel: +251911823271"
                 className="inline-block rounded-lg bg-yellow-400 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-yellow-500 focus-visible:ring active:bg-indigo-700 md:text-base"
               >
                 {t("service.button")}
