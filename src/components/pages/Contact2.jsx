@@ -10,6 +10,34 @@ import { useTranslation } from "react-i18next";
 import ScrollTrigger from "react-scroll-trigger";
 
 const Contact2 = () => {
+  const [data, setData] = useState({fname:"", email:"", phone:"", message:""});
+
+  const handleChange = (e) =>{
+    const name = e.target.name;
+    const value = e.target.value;
+    setData({...data, [name]: value})
+  }
+
+  const handleSubmit = (e) =>{
+    e.preventDefault();
+
+    if (data.fname === "" || data.phone === "" || data.message === "") {
+      alert("please fill the form properly");
+    } else {
+      const myMessage = `service request: %0A - Full Name: ${data.fname}%0A - Email: ${data.email}%0A - Phone: ${data.phone}%0A - Message: ${data.message}`;
+
+      const token = "7478245831:AAGn8rFLJkCZDDTpE8OQvN1q1dAGgw-7v2U";
+      const chat_id = -1002232894996;
+      const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${myMessage}&parse_mode=html`;
+
+      let api = new XMLHttpRequest();
+      api.open("GET", url, true);
+      api.send();
+
+      alert("Sent successfully    Thank You!!!");
+    }
+  }
+
   const [visible, setVisible] = useState(false);
   const [visible1, setVisible1] = useState(false);
 
@@ -31,7 +59,9 @@ const Contact2 = () => {
           {/* the left box(the form) */}
           <ScrollTrigger onEnter={onEnterViewport}>
             <form
-              action=""
+              action="#"
+              method="post"
+              onSubmit={handleSubmit}
               className={`static text-tertiary md:ml-20 ml-10 ${
                 visible ? "animate-slide" : "opacity-0"
               }`}
@@ -42,6 +72,10 @@ const Contact2 = () => {
               </p>
               <input
                 type="text"
+                id="fname"
+                name="fname"
+                onChange={handleChange}
+                value={data.fname}
                 placeholder={t("contact.name")}
                 className="border-b border-tertiary py-3 px-2 md:w-2/5 w-4/5 my-4
                             focus:outline-none focus:border-trans focus:ring-1 focus:ring-slate-400 duration-500"
@@ -49,29 +83,43 @@ const Contact2 = () => {
               <br />
               <input
                 type="email"
+                id="email"
+                name="email"
+                onChange={handleChange}
+                value={data.email}
                 placeholder={t("contact.email")}
                 className="border-b border-tertiary py-3 px-2 md:w-2/5 w-4/5 mb-4
                             focus:outline-none focus:border-trans focus:ring-1 focus:ring-slate-400 duration-500"
               />{" "}
               <br />
               <input
-                type="text"
+                type="tell"
+                id="phone"
+                name="phone"
+                onChange={handleChange}
+                value={data.phone}
                 placeholder={t("contact.phone")}
                 className="border-b border-tertiary py-3 px-2 md:w-2/5 w-4/5  mb-4
                             focus:outline-none focus:border-trans focus:ring-1 focus:ring-slate-400 duration-500"
               />
               <br />
               <textarea
-                name=""
-                id=""
+                id="message"
+                name="message"
+                onChange={handleChange}
+                value={data.message}
                 placeholder={t("contact.text")}
                 className="border-b border-tertiary py-3 px-2 md:w-2/5 w-4/5 mb-4
                             focus:outline-none focus:border-trans focus:ring-1 focus:ring-slate-400 duration-500"
               ></textarea>
               <br />
-              <button className="border-b border-tertiary font-bold md:w-2/5 mb-10 w-4/5 hover:bg-tertiary  hover:text-primary duration-500 tracking-widest py-3">
-                {t("contact.send")}
-              </button>
+              <input 
+                type="submit"
+                value={t("contact.send")}
+                className="border-b border-tertiary font-bold md:w-2/5 mb-10 w-4/5 hover:bg-tertiary
+                            hover:text-primary duration-500 tracking-widest py-3"
+                
+              />
             </form>
           </ScrollTrigger>
 
