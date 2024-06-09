@@ -1,109 +1,100 @@
 {
-    "contact" :{
-            "header": "Contact Us",
-            "paragraph": "Feel free to contact us any time. we will get back to you as soon as we can.",
-            "name": "Name",
-            "email": "Email", 
-            "phone": "Phone", 
-            "text": "Message",
-            "send": "SEND", 
-            "info": "Info",
-            "hour": "We are open from Monday to Friday 8:00AM - 6:00PM  & Saturday 8:00AM - 4:00PM" ,
-            "location": "22 Town Square Mall 1st Floor Megenagna to Signal Upper Nile - Real estate Ground Floor"
-    },
-    
+  "contact": {
+    "header": "Contact Us",
+    "paragraph": "Feel free to contact us any time. we will get back to you as soon as we can.",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "text": "Message",
+    "send": "SEND",
+    "info": "Info",
+    "hour": "We are open from Monday to Friday 8:00AM - 6:00PM  & Saturday 8:00AM - 4:00PM",
+    "location": "22 Town Square Mall 1st Floor Megenagna to Signal Upper Nile - Real estate Ground Floor"
+  },
 
-    "footer" :{
-        "header": "Dallol",
-        "getintouch": "Get in Touch",
-        "mail": "MAIL",  
-        "call": "CALL",
-        "find": "FIND US",
-        "location": "22 Town Square Mall 1st Floor",
-        "location1": "Megenagna to Signal Upper Nile -",
-        "location2": "Real estate Ground Floor"
-    },
+  "footer": {
+    "header": "Dallol",
+    "getintouch": "Get in Touch",
+    "mail": "MAIL",
+    "call": "CALL",
+    "find": "FIND US",
+    "location": "22 Town Square Mall 1st Floor",
+    "location1": "Megenagna to Signal Upper Nile -",
+    "location2": "Real estate Ground Floor"
+  },
 
+  "header": {
+    "header": "Dallol Alluminium",
+    "home": "Home",
+    "about": "About",
+    "service": "Service",
+    "contact": "Contact Us"
+  },
 
-    "header": {
-        "header":"Dallol Alluminium",
-        "home": "Home",
-        "about": "About",
-        "service": "Service",
-        "contact": "Contact Us"
-    },
+  "home": {
+    "header": "Dallol Alluminium",
+    "paragraph": "Welcome to Dallol Aluminum - where innovation meets excellence in aluminum manufacturing. We are committed to delivering high-quality products that meet the needs of our customers. With a focus on precision and sustainability, we strive to exceed industry standards and provide solutions that drive progress in various sectors. Explore our range of premium aluminum products and experience the difference with Dallol Aluminum...",
+    "button": "Learn More",
+    "why": "Why Choose Us?",
+    "commitment": "Commitment to Excellence",
+    "paragraph1": "Dallol Aluminum is renowned for its commitment to excellence, transparency, and exceptional customer service, ensuring that customers receive the finest regulation-compliant engineering designed for over 8000 hours per annum duty.",
+    "industry": "Industry Expertise",
+    "paragraph2": "With a legacy dating back to 1985, Dallol Aluminum boasts a dedicated team of planners, designers, engineers, and administration professionals who have expertly delivered superior aluminum solutions for major businesses across various regions",
+    "quality": "Quality Assurance",
+    "paragraph3": "The company maintains quality control as one of the pillars of its solutions, ensuring the highest quality. Our quality assurance practices are in every aspect of our operations, ensuring that our customers receive products of the highest standard.",
+    "crafted": "Crafted with excellent material",
+    "paragraph4": "Dallol Aluminium products embody meticulous attention to quality and precision, ensuring unparalleled durability and performance in every application.",
+    "button1": "Explore",
+    "card": "Stainless Steel Plate",
+    "card-paragraph": "Versatile and corrosion-resistant material widely used in various industrial applications. This type of steel, known for its exceptional formability and weldability, is favored for its ability to withstand high temperatures and harsh environments.",
+    "card1": "Stainless Steel Wire",
+    "card1-paragraph": "It is a type of wire made from stainless steel, a corrosion-resistant alloy. It is strong, durable, and resist rust and corrosion, making it suitable for various applications such as wire mesh, cable ties, and metal fabrications.",
+    "card2": "Aluminum in Windows",
+    "card2-paragraph": "Aluminum is commonly used in windows due to its strength, structural integrity, and impact resistance, making it ideal for handling larger window sizes and providing a higher degree of impact resistance, particularly in areas prone to hurricanes.",
+    "discover": "Discover the Power of Aluminum: Request Your Personalized Quote Today!",
+    "discover-paragraph": "Ready to elevate your projects with the strength and versatility of premium aluminum products? Explore our extensive range of high-quality aluminum solutions, engineered to meet your diverse needs. Take the first step towards enhancing your designs and constructions by requesting a personalized quote today. Let our experts guide you through our exceptional aluminum offerings, tailored to elevate your vision to new heights. Experience the power of aluminum – contact us now to unlock a world of possibilities!",
+    "button2": "Contact Us"
+  },
 
+  "about": {
+    "header": "Dallol Aluminiums:",
+    "forging": " Your Premier Aluminum Supplier",
+    "welcome": "Welcome to Dallol Aluminum, where the future is shaped through the fusion of industry expertise and innovation. Specializing in the supply of aluminum, we are dedicated to transforming raw materials into lucrative opportunities for our clients. With a focus on precision and reliability, Dallol Aluminum is your trusted partner in navigating the dynamic landscape of aluminum markets. Choose Dallol Aluminum for unmatched quality and service in aluminum supply.",
+    "confront": "We confront the hurdles unique to aluminum ventures",
+    "addition": "In addition to collaborating with emerging aluminum enterprises to spearhead digital transformation, we've developed enterprise solutions tailored to address the prevalent challenges encountered within the aluminum supply industry.",
+    "streamlined": "Streamlined & rapid",
+    "processing": "processing",
+    "robust": "robust",
+    "functionalities": "functionalities",
+    "focus": "Focused on User Experience Enhancement",
+    "forgtool": "ForgeTools: Empowering Aluminum Enterprises",
+    "unleash": "Unleash the potential of our versatile toolkit designed to meet the diverse needs of the aluminum industry.",
+    "adaptable": "Adaptable to industry demands",
+    "tailored": "Tailored customization options",
+    "dedicated": "Dedicated support around the clock"
+  },
 
-    "home": {
-        "header":"Dallol Alluminium",
-        "paragraph": "Welcome to Dallol Aluminum - where innovation meets excellence in aluminum manufacturing. We are committed to delivering high-quality products that meet the needs of our customers. With a focus on precision and sustainability, we strive to exceed industry standards and provide solutions that drive progress in various sectors. Explore our range of premium aluminum products and experience the difference with Dallol Aluminum...",
-        "button": "Learn More",
-        "why": "Why Choose Us?",
-        "commitment": "Commitment to Excellence",
-        "paragraph1": "Dallol Aluminum is renowned for its commitment to excellence, transparency, and exceptional customer service, ensuring that customers receive the finest regulation-compliant engineering designed for over 8000 hours per annum duty.",
-        "industry": "Industry Expertise",
-        "paragraph2": "With a legacy dating back to 1985, Dallol Aluminum boasts a dedicated team of planners, designers, engineers, and administration professionals who have expertly delivered superior aluminum solutions for major businesses across various regions",
-        "quality": "Quality Assurance",
-        "paragraph3": "The company maintains quality control as one of the pillars of its solutions, ensuring the highest quality. Our quality assurance practices are in every aspect of our operations, ensuring that our customers receive products of the highest standard.",
-        "crafted": "Crafted with excellent material",
-        "paragraph4": "Dallol Aluminium products embody meticulous attention to quality and precision, ensuring unparalleled durability and performance in every application.",
-        "button1": "Explore",
-        "card": "Stainless Steel Plate",
-        "card-paragraph": "Versatile and corrosion-resistant material widely used in various industrial applications. This type of steel, known for its exceptional formability and weldability, is favored for its ability to withstand high temperatures and harsh environments.",
-        "card1": "Stainless Steel Wire",
-        "card1-paragraph": "It is a type of wire made from stainless steel, a corrosion-resistant alloy. It is strong, durable, and resist rust and corrosion, making it suitable for various applications such as wire mesh, cable ties, and metal fabrications.",
-        "card2": "Aluminum in Windows",
-        "card2-paragraph": "Aluminum is commonly used in windows due to its strength, structural integrity, and impact resistance, making it ideal for handling larger window sizes and providing a higher degree of impact resistance, particularly in areas prone to hurricanes.",
-        "discover": "Discover the Power of Aluminum: Request Your Personalized Quote Today!",
-        "discover-paragraph": "Ready to elevate your projects with the strength and versatility of premium aluminum products? Explore our extensive range of high-quality aluminum solutions, engineered to meet your diverse needs. Take the first step towards enhancing your designs and constructions by requesting a personalized quote today. Let our experts guide you through our exceptional aluminum offerings, tailored to elevate your vision to new heights. Experience the power of aluminum – contact us now to unlock a world of possibilities!",
-        "button2": "Contact Us"
-    },
-
-
-    "about":{
-        "header": "Dallol Aluminiums:",
-        "forging": "Forging Aluminum Futures",
-        "welcome": "Welcome to Dallol Aluminum, where the future is shaped through the fusion of industry expertise and innovation. Specializing in the trading of aluminum, we are dedicated to transforming raw materials into lucrative opportunities. With a focus on precision and reliability, Dallol Aluminum is your trusted partner in navigating the dynamic landscape of aluminum markets.",
-        "confront": "We confront the hurdles unique to aluminum ventures",
-        "addition": "In addition to collaborating with emerging aluminum enterprises to spearhead digital transformation, we've developed enterprise solutions tailored to address prevalent challenges encountered within the industry.",
-        "streamlined": "Streamlined & rapid",
-        "processing": "processing",
-        "robust": "robust",
-        "functionalities": "functionalities",
-        "focus": "Focused on User Experience Enhancement",
-        "forgtool": "ForgeTools: Empowering Aluminum Enterprises",
-        "unleash": "Unleash the potential of our versatile toolkit designed to meet the diverse needs of the aluminum industry.",
-        "adaptable": "Adaptable to industry demands",
-        "tailored": "Tailored customization options",
-        "dedicated": "Dedicated support around the clock"
-    },
-
-
-    "service": {
-        "our": "Our Service",
-        "what": "What We Offer",
-        "at": "At Dallol Aluminums, we provide a wide range of aluminum products and services tailored to meet diverse industry needs.",
-        "solutions": "Aluminum Solutions",
-        "paragraph": "we offer a wide array of aluminum services designed to meet the needs of various industries.",
-        "accessories": "Aluminum Accessories",
-        "paragraph1": "We provide a variety of aluminum accessories such as fittings, brackets, fasteners, and other components.",
-        "hand": "Hand Rails",
-        "paragraph2": "Our aluminum hand rails are perfect for both residential and commercial properties. They combine strength and style, providing safety and support without compromising on aesthetics.",
-        "composite": "Composite and Panel Solutions",
-        "paragraph3": "We offer innovative composite and panel solutions, including aluminum composite panels. These panels are ideal for building facades, interior cladding, and more.",
-        "supply": "Supply and Installation",
-        "paragraph4": "Our comprehensive supply and installation services ensure that your aluminum products are delivered and installed with precision and care.",
-        "aluminium": "Aluminum Works",
-        "paragraph5": "Our state-of-the-art facilities and skilled technicians can create bespoke aluminum solutions that match your specifications perfectly.",
-        "ready": "Ready to Get Started?",
-        "revolutionize": "Revolutionize Your Projects with Our Aluminum Solutions",
-        "button": "Call Us",
-        "button1": "Contact Us",
-        "explore": "Explore",
-        "some": "Some of our products and services"
-    }
-
-
-
-
+  "service": {
+    "our": "Our Service",
+    "what": "What We Offer",
+    "at": "At Dallol Aluminums, we provide a wide range of aluminum products and services tailored to meet diverse industry needs.",
+    "solutions": "Aluminum Solutions",
+    "paragraph": "we offer a wide array of aluminum services designed to meet the needs of various industries.",
+    "accessories": "Aluminum Accessories",
+    "paragraph1": "We provide a variety of aluminum accessories such as fittings, brackets, fasteners, and other components.",
+    "hand": "Hand Rails",
+    "paragraph2": "Our aluminum hand rails are perfect for both residential and commercial properties. They combine strength and style, providing safety and support without compromising on aesthetics.",
+    "composite": "Composite Panel Solutions",
+    "paragraph3": "We offer innovative composite and panel solutions, including aluminum composite panels. These panels are ideal for building facades, interior cladding, and more.",
+    "supply": "Supply and Installation",
+    "paragraph4": "Our comprehensive supply and installation services ensure that your aluminum products are delivered and installed with precision and care.",
+    "aluminium": "Aluminum Works",
+    "paragraph5": "Our state-of-the-art facilities and skilled technicians can create bespoke aluminum solutions that match your specifications perfectly.",
+    "ready": "Ready to Get Started?",
+    "revolutionize": "Revolutionize Your Projects with Our Aluminum Solutions",
+    "button": "Call Us",
+    "button1": "Contact Us",
+    "explore": "Explore",
+    "some": "Some of our products and services"
+  }
 }
