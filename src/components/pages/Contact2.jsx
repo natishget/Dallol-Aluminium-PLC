@@ -121,14 +121,14 @@ const Contact2 = () => {
                 
               />
             </form>
-          </ScrollTrigger>
+          
 
           {/* the info box */}
-          <ScrollTrigger onEnter={onEnterViewport1}>
+          
             <div
               className={`md:absolute md:right-0 md:top-28 font-bold text-sm pl-10 py-12 border
                             border-tertiary bg-tertiary w-full  md:w-2/5 text-quaternary flex-col justify-center align-center 
-                            ${visible1 ? "animate-slideForward" : "opacity-0"}`}
+                            ${visible ? "animate-slideForward" : "opacity-0"}`}
             >
               <h3 className="mb-7 text-2xl  text-quinary">
                 {t("contact.info")}
