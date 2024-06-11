@@ -52,13 +52,7 @@ const Home = () => {
     setVisible3(false);
   };
 
-  const onEnterViewport4 = () => {
-    setVisible3(true);
-  };
-
-  const onExitViewport4 = () => {
-    setVisible3(false);
-  };
+  
 
   const [t, i18n] = useTranslation("global");
   return (
