@@ -11,6 +11,15 @@ import WhyTwo from '../../img/twowhy.png';
 import WhyThree from '../../img/threewhy.png';
 import ImgFour from '../../img/fourimg.png'
 
+import Img1 from '../../img/diamond/image1.png'
+import Img2 from '../../img/diamond/Image2.png'
+import Img3 from '../../img/diamond/image3.jpg'
+import Img4 from '../../img/diamond/Image4.png'
+import Img5 from '../../img/diamond/Image5.png'
+import Img6 from '../../img/diamond/Image6.png'
+import Img7 from '../../img/diamond/Image7.png'
+import Img8 from '../../img/diamond/Image8.png'
+
 
 
 const Home = () => {
@@ -50,6 +59,14 @@ const Home = () => {
 
   const onExitViewport3 = () => {
     setVisible3(false);
+  };
+
+  const onEnterViewport4 = () => {
+    setVisible4(true);
+  };
+
+  const onExitViewport4 = () => {
+    setVisible4(false);
   };
 
   
@@ -182,16 +199,26 @@ const Home = () => {
 
       </div>
 
-      <div className='lg:pl-6 pt-10 lg:flex w-full justify-around text-sans'>
-        <div className='lg:pl-10 md:px-10 lg:px-0 px-8'>
+      <div className='lg:pl-6 pt-10 lg:flex w-full  text-sans'>
+        <div className='lg:pl-5 md:px-10 lg:px-0 px-8 md:w-8/12'>
           <p className='md:text-4xl text-3xl font-bold text-gray-700'>{t("home.discover")}</p>
           <p className='mt-4 text-gray-600 mb-10'>{t("home.discover-paragraph")}</p>
           <Link to="contact" className='hover:bg-black bg-primary text-gray-900 font-bold hover:text-primary font-bold hover:font-bold
               py-2 mt-4 px-5 shadow-md transition duration-300  ease-in-out transform hover:scale-105'>{t("home.button2")}</Link>
         </div>
-        <div className="pl-12 pt-14 -mt-32 lg:mt-0 lg:pt-0 lg:pl-0 flex justify-end lg:flex-none lg:pr-0">
-          <img src={ImgFour} alt="aluminum image" className="" />
+        <ScrollTrigger onEnter={onEnterViewport4} onExit={onExitViewport4} className="md:w-3/12 w-1/2 md:ml-0 m-5 my-12">
+        <div className={`relative diamond w-full pl-12 pt-14 lg:mt-0 lg:pt-0 lg:pl-0 flex justify-end lg:flex-none lg:pr-0
+                        `}>
+          <img src={Img1} className={`DiamondImg absolute a ${visible4 ? 'animate-slideForward1 hover:animate-slideForward2Hover' : 'opacity-0'}`} alt="Image 1"/>
+          <img src={Img2} className={`DiamondImg absolute b ${visible4 ? 'animate-slideForward3 hover:animate-slideForward2Hover' : 'opacity-0'}`} alt="Image 2"/>
+          <img src={Img3} className={`DiamondImg absolute c ${visible4 ? 'animate-slideForward6 hover:animate-slideForward2Hover' : 'opacity-0'}`} alt="Image 3"/>
+          <img src={Img4} className={`DiamondImg absolute d ${visible4 ? 'animate-slideForward5 hover:animate-slideForward2Hover' : 'opacity-0'}`} alt="Image 4"/>
+          <img src={Img5} className={`DiamondImg absolute e ${visible4 ? 'animate-slideForward7 hover:animate-slideForward2Hover' : 'opacity-0'}`} alt="Image 5"/>
+          <img src={Img6} className={`DiamondImg absolute f ${visible4 ? 'animate-slideForward3 hover:animate-slideForward2Hover' : 'opacity-0'}`} alt="Image 6"/>
+          <img src={Img7} className={`DiamondImg absolute g ${visible4 ? 'animate-slideForward4 hover:animate-slideForward2Hover' : 'opacity-0'}`} alt="Image 7"/>
+          <img src={Img8} className={`DiamondImg absolute h ${visible4 ? 'animate-slideForward2 hover:animate-slideForward2Hover' : 'opacity-0'}`} alt="Image 8"/>
         </div>
+        </ScrollTrigger>
       </div>
     </div>
   );

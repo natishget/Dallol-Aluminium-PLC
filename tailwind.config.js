@@ -50,15 +50,49 @@ export default {
             opacity: 1,
           },
         },
+        slideForward2: {
+          '0%': {
+            transform: 'scale(0.5) rotate(45deg) translateZ(-100px)',
+            opacity: 0,
+          },
+          '100%': {
+            transform: 'scale(1) rotate(45deg) translateZ(0)',
+            opacity: 1,
+          },
+        },
+        slideForward2Hover: {
+          '0%': {
+            transform: ' rotate(45deg) ',
+            opacity: 0,
+          },
+          '100%': {
+            transform: ' rotate(0deg)',
+            opacity: 1,
+          },
+        },
       },
       animation: {
         slide: 'slide 1500ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
         slide2: 'slide 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
         slideForward: 'slideForward 1500ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
+        slideForward1: 'slideForward2 1500ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
+        slideForward2: 'slideForward2 1650ms cubic-bezier(0.250, 0.460, 0.450, 0.940) 100ms both',
+        slideForward3: 'slideForward2 1700ms cubic-bezier(0.250, 0.460, 0.450, 0.940) 250ms both',
+        slideForward4: 'slideForward2 1850ms cubic-bezier(0.250, 0.460, 0.450, 0.940) 400ms both',
+        slideForward5: 'slideForward2 1900ms cubic-bezier(0.250, 0.460, 0.450, 0.940) 550ms both',
+        slideForward6: 'slideForward2 2050ms cubic-bezier(0.250, 0.460, 0.450, 0.940) 700ms both',
+        slideForward7: 'slideForward2 2100ms cubic-bezier(0.250, 0.460, 0.450, 0.940) 850ms both',
+        slideForward8: 'slideForward2 2250ms cubic-bezier(0.250, 0.460, 0.450, 0.940) 1000ms both',
+        slideForward2Hover: 'slideForward2Hover 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940)  both',
         slideToLeft: 'slideToLeft 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
         slideToLeft1: 'slideToLeft 1500ms cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
         slideToLeft2: 'slideToLeft 2s cubic-bezier(0.250, 0.460, 0.450, 0.940)  both',
       },
+    },
+  },
+  variants: {
+    extend: {
+      animation: ['hover'],
     },
   },
   plugins: [

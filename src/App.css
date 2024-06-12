@@ -56,3 +56,66 @@
 .example::-webkit-scrollbar {
   display: none;
 }
+
+
+.diamond{
+  aspect-ratio: 1 / 1;
+  position: relative;
+  padding: 0 120px;
+  height: 100%;
+}
+
+.DiamondImg{
+  width: 32%;
+  border: 1px solid rgb(123, 123, 123);
+  border-radius: 8px;
+  transition: transform 1s, width 1s;
+
+}
+
+.DiamondImg:hover{
+  transform: rotate(0deg);
+  width: 50%;
+  z-index: 10;
+}
+
+.a{
+  left: 50%;
+}
+
+.b{
+  left: 25%;
+  top: 25%;
+}
+
+.c{
+  left: 75%;
+  top: 25%;
+}
+
+.d{
+  top:50%;
+  left: 0;
+}
+
+.e{
+  top:50%;
+  left: 50%;
+}
+
+.f{
+  top: 50%;
+  left: 100%;
+}
+
+.g{
+  top: 75%;
+  left: 25%;
+}
+
+.h{
+  top: 75%;
+  left: 75%;
+}
+
+
