@@ -9,7 +9,6 @@ import ImgThree from '../../img/threeimg.png';
 import WhyOne from '../../img/onewhy.png';
 import WhyTwo from '../../img/twowhy.png';
 import WhyThree from '../../img/threewhy.png';
-import ImgFour from '../../img/fourimg.png'
 
 import Img1 from '../../img/diamond/image1.png'
 import Img2 from '../../img/diamond/Image2.png'
