@@ -199,14 +199,14 @@ const Home = () => {
 
       </div>
 
-      <div className='lg:pl-6 pt-10 lg:flex w-full  text-sans'>
-        <div className='lg:pl-5 md:px-10 lg:px-0 px-8 md:w-8/12'>
+      <div className='lg:pl-6 pt-10 lg:flex w-full justify-around  text-sans'>
+        <div className='lg:pl-5 md:px-10 lg:px-0 px-8 md:w-7/12'>
           <p className='md:text-4xl text-3xl font-bold text-gray-700'>{t("home.discover")}</p>
           <p className='mt-4 text-gray-600 mb-10'>{t("home.discover-paragraph")}</p>
           <Link to="contact" className='hover:bg-black bg-primary text-gray-900 font-bold hover:text-primary font-bold hover:font-bold
               py-2 mt-4 px-5 shadow-md transition duration-300  ease-in-out transform hover:scale-105'>{t("home.button2")}</Link>
         </div>
-        <ScrollTrigger onEnter={onEnterViewport4} onExit={onExitViewport4} className="md:w-3/12 w-1/2 md:ml-0 m-5 my-12">
+        <ScrollTrigger onEnter={onEnterViewport4} onExit={onExitViewport4} className="md:w-4/12 w-1/2 md:ml-0 md:mr-32  m-5 my-20">
         <div className={`relative diamond w-full pl-12 pt-14 lg:mt-0 lg:pt-0 lg:pl-0 flex justify-end lg:flex-none lg:pr-0
                         `}>
           <img src={Img1} className={`DiamondImg absolute a ${visible4 ? 'animate-slideForward1 hover:animate-slideForward2Hover' : 'opacity-0'}`} alt="Image 1"/>
