@@ -1,12 +1,12 @@
 import Product1 from "../assets/product1.jpg";
 import Product2 from "../assets/product2.jpg";
 import Product3 from "../assets/product3.jpg";
-import Product4 from "../assets/product4.jpg";
+import Product4 from "../img/allco5.png";
 import Product5 from "../assets/product5.jpg";
 import Product6 from "../assets/product6.jpg";
 import Product7 from "../assets/product7.jpg";
 import Product8 from "../assets/product8.jpg";
-import Product9 from "../assets/product9.jpg";
+import Product9 from "../img/one.png";
 
 export default function Products() {
   const data = [

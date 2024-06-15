@@ -161,7 +161,7 @@ const Home = () => {
            </ScrollTrigger>
         </div>
 
-        <ScrollTrigger onEnter={onEnterViewport} onExit={onExitViewport}>
+        <ScrollTrigger onEnter={onEnterViewport} onExit={onExitViewport} className="mb-12">
         <div className={`rounded-xl bg-gray-200 lg:mb-0 h-full mb-12 ${visible ? 'animate-slideToLeft' : 'opacity-0'}`}>
           <img className='rounded-t-xl lg:w-84 lg:h-64' src={ImgOne} alt="" />
           <div>
@@ -173,8 +173,8 @@ const Home = () => {
         </div>
         </ScrollTrigger>
 
-        <ScrollTrigger onEnter={onEnterViewport1} onExit={onExitViewport1}>
-        <div className={`rounded-xl bg-gray-200 lg:mb-0 h-full mb-12 ${visible1 ? 'animate-slideToLeft1' : 'opacity-0'}`}>
+        <ScrollTrigger onEnter={onEnterViewport1} onExit={onExitViewport1} className="mb-12">
+        <div className={`rounded-xl bg-gray-200 lg:mb-5 h-full mb-12 ${visible1 ? 'animate-slideToLeft1' : 'opacity-0'}`}>
           <img className='rounded-t-xl lg:w-84 lg:h-64' src={ImgTwo} alt="" />
           <div>
             <h3 className="font-bold text-gray-800 text-xl pt-4 px-4">
@@ -185,7 +185,7 @@ const Home = () => {
         </div>
         </ScrollTrigger>
 
-        <ScrollTrigger onEnter={onEnterViewport2} onExit={onExitViewport2}>
+        <ScrollTrigger onEnter={onEnterViewport2} onExit={onExitViewport2} className="mb-12">
         <div className={`rounded-xl bg-gray-200 h-full lg:mb-0 ${visible2 ? 'animate-slideToLeft2' : 'opacity-0'}`}>
           <img className='rounded-t-xl mx-auto lg:w-84 lg:h-64' src={ImgThree} alt="" />
           <div>
