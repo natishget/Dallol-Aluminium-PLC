@@ -82,7 +82,7 @@ const Header = () => {
               alt=""
               className="md:w-12 md:h-12 w-11 h-11 my-auto"
             />
-            <h3 className="pl-1 flex text-yellow-400 items-center md:text-2xl text-xl font-semibold">
+            <h3 className="pl-1 flex text-yellow-400 items-center md:text-2xl text-lg font-semibold">
               {t("header.header")}
             </h3>
           </div>
