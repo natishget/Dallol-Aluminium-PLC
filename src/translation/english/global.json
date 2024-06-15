@@ -8,8 +8,10 @@
     "text": "Message",
     "send": "SEND",
     "info": "Info",
+    "Additional": "Additional",
     "hour": "We are open from Monday to Friday 8:00AM - 6:00PM  & Saturday 8:00AM - 4:00PM",
-    "location": "22 Town Square Mall 1st Floor Megenagna to Signal Upper Nile - Real estate Ground Floor"
+    "location": "22 Town Square Mall 1st Floor",
+    "location1": "Megenagna to Signal Upper Nile - Real estate Ground Floor"
   },
 
   "footer": {

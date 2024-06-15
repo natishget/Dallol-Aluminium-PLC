@@ -145,10 +145,10 @@ const Contact2 = () => {
                 <img src={phone} alt="" className="mr-2 w-4" />
                 <div>
                   <a
-                    href="tel: +251911823271"
+                    href="tel: +251993616161"
                     className="hover:text-primary hover:text-xl duration-500"
                   >
-                    +251 911 82 32 71
+                    +251 993 61 61 61
                   </a>{" "}
                   <br />
                   <a
@@ -156,16 +156,24 @@ const Contact2 = () => {
                     className="hover:text-primary hover:text-xl duration-500"
                   >
                     +251 903 23 24 25
-                  </a>
+                  </a> <br />
+                  <p>{t("contact.Additional")}</p>
+                  <a
+                    href="tel: +251911823271"
+                    className="hover:text-primary hover:text-xl duration-500"
+                  >
+                    +251 911 82 32 71
+                  </a>{" "}
                 </div>
               </div>
               <a
                 href="https://www.google.com/maps/place/Upper+Nile+Real+estate/@9.0210905,38.7922563,17z/data=!3m1!4b1!4m6!3m5!1s0x164b85f566992eeb:0x5d2835e77a5b2bfd!8m2!3d9.0210905!4d38.7922563!16s%2Fg%2F11tp520dn6?entry=ttu"
                 target="_blank"
-                className="hover:text-primary hover:text-xl duration-500 mb-7 mr-16 flex"
+                className="hover:text-primary duration-500 mb-7 mr-16 flex"
               >
                 <img src={location} alt="" className="mr-2 w-4" />
-                {t("contact.location")}
+                1# {t("contact.location")} <br />
+                2# {t("contact.location1")}
               </a>
               <div className="mb-7 mx-8">{t("contact.hour")}</div>
             </div>
