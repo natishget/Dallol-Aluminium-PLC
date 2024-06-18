@@ -8,17 +8,18 @@ import linkedIn from "../../assets/linkedin-black.svg";
 import useIntersectionObserver from "../../hooks/useIntersectionObserver";
 import { useTranslation } from "react-i18next";
 import ScrollTrigger from "react-scroll-trigger";
+import { Helmet } from "react-helmet-async";
 
 const Contact2 = () => {
-  const [data, setData] = useState({fname:"", email:"", phone:"", message:""});
+  const [data, setData] = useState({ fname: "", email: "", phone: "", message: "" });
 
-  const handleChange = (e) =>{
+  const handleChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
-    setData({...data, [name]: value})
+    setData({ ...data, [name]: value })
   }
 
-  const handleSubmit = (e) =>{
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     if (data.fname === "" || data.phone === "" || data.message === "") {
@@ -52,6 +53,11 @@ const Contact2 = () => {
   const [t, i18n] = useTranslation("global");
   return (
     <div className="  flex justify-center w-full">
+      <Helmet>
+        <title>Contact Us</title>
+        <meta name="description" content="Feel free to contact us any time. we will get back to you as soon as we can." />
+        <link rel="canonical" href="/contact" />
+      </Helmet>
       {/* the main box */}
       <div className=" mt-28 md:relative shadow-lg shadow-slate-400 mb-10   border flex w-4/5  h-full">
         {/* the white box */}
@@ -62,9 +68,8 @@ const Contact2 = () => {
               action="#"
               method="post"
               onSubmit={handleSubmit}
-              className={`static text-tertiary md:ml-20 ml-10 ${
-                visible ? "animate-slide" : "opacity-0"
-              }`}
+              className={`static text-tertiary md:ml-20 ml-10 ${visible ? "animate-slide" : "opacity-0"
+                }`}
             >
               <h1 className="text-4xl font-bold">{t("contact.header")}</h1>
               <p className="md:mt-7 mt-5 w-3/5 text-sm">
@@ -113,18 +118,18 @@ const Contact2 = () => {
                             focus:outline-none focus:border-trans focus:ring-1 focus:ring-slate-400 duration-500"
               ></textarea>
               <br />
-              <input 
+              <input
                 type="submit"
                 value={t("contact.send")}
                 className="border-b border-tertiary font-bold md:w-2/5 mb-10 w-4/5 hover:bg-tertiary
                             hover:text-primary duration-500 tracking-widest py-3"
-                
+
               />
             </form>
-          
 
-          {/* the info box */}
-          
+
+            {/* the info box */}
+
             <div
               className={`md:absolute md:right-0 md:top-28 font-bold text-sm pl-10 py-12 border
                             border-tertiary bg-tertiary w-full  md:w-2/5 text-quaternary flex-col justify-center align-center 

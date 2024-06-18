@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import ScrollTrigger from "react-scroll-trigger";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 // Image for the pages
 import One from "../../img/one.png";
@@ -72,6 +73,11 @@ const Home = () => {
   const [t, i18n] = useTranslation("global");
   return (
     <div className="w-full font-sans">
+      <Helmet>
+        <title>Dallol Aluminium - Home</title>
+        <meta name="description" content="Welcome to Dallol Aluminum - your premier source for high-quality aluminum supplies." />
+        <link rel="canonical" href="/" />
+      </Helmet>
       <div className="lg:p-16 p-10 lg:pt-44 pt-32 lg:grid grid-cols-2 w-full text-sans pb-14">
         <div className="lg:pb-0 pb-14">
           <p className="md:text-6xl text-5xl font-bold text-gray-700">
@@ -147,16 +153,14 @@ const Home = () => {
         <div className="lg:my-auto mb-12">
           <ScrollTrigger onEnter={onEnterViewport3} onExit={onExitViewport3}>
             <h3
-              className={`font-bold text-gray-800 text-xl ${
-                visible3 ? "animate-slideForward" : "opacity-0"
-              }`}
+              className={`font-bold text-gray-800 text-xl ${visible3 ? "animate-slideForward" : "opacity-0"
+                }`}
             >
               {t("home.crafted")}
             </h3>
             <p
-              className={`mb-10 ${
-                visible3 ? "animate-slideForward" : "opacity-0"
-              }`}
+              className={`mb-10 ${visible3 ? "animate-slideForward" : "opacity-0"
+                }`}
             >
               {t("home.paragraph4")}
             </p>
@@ -180,9 +184,8 @@ const Home = () => {
           className="mb-12"
         >
           <div
-            className={`rounded-xl bg-gray-200 lg:mb-0 h-full mb-12 ${
-              visible ? "animate-slideToLeft" : "opacity-0"
-            }`}
+            className={`rounded-xl bg-gray-200 lg:mb-0 h-full mb-12 ${visible ? "animate-slideToLeft" : "opacity-0"
+              }`}
           >
             <img className="rounded-t-xl lg:w-84 lg:h-64" src={ImgOne} alt="" />
             <div>
@@ -200,9 +203,8 @@ const Home = () => {
           className="mb-12"
         >
           <div
-            className={`rounded-xl bg-gray-200 lg:mb-5 h-full mb-12 ${
-              visible1 ? "animate-slideToLeft1" : "opacity-0"
-            }`}
+            className={`rounded-xl bg-gray-200 lg:mb-5 h-full mb-12 ${visible1 ? "animate-slideToLeft1" : "opacity-0"
+              }`}
           >
             <img className="rounded-t-xl lg:w-84 lg:h-64" src={ImgTwo} alt="" />
             <div>
@@ -220,9 +222,8 @@ const Home = () => {
           className="mb-12"
         >
           <div
-            className={`rounded-xl bg-gray-200 h-full lg:mb-0 ${
-              visible2 ? "animate-slideToLeft2" : "opacity-0"
-            }`}
+            className={`rounded-xl bg-gray-200 h-full lg:mb-0 ${visible2 ? "animate-slideToLeft2" : "opacity-0"
+              }`}
           >
             <img
               className="rounded-t-xl mx-auto lg:w-84 lg:h-64"
@@ -266,74 +267,66 @@ const Home = () => {
           >
             <img
               src={Img1}
-              className={`DiamondImg absolute a ${
-                visible4
+              className={`DiamondImg absolute a ${visible4
                   ? "animate-slideForward1 hover:animate-slideForward2Hover"
                   : "opacity-0"
-              }`}
+                }`}
               alt="Image 1"
             />
             <img
               src={Img2}
-              className={`DiamondImg absolute b ${
-                visible4
+              className={`DiamondImg absolute b ${visible4
                   ? "animate-slideForward3 hover:animate-slideForward2Hover"
                   : "opacity-0"
-              }`}
+                }`}
               alt="Image 2"
             />
             <img
               src={Img3}
-              className={`DiamondImg absolute c ${
-                visible4
+              className={`DiamondImg absolute c ${visible4
                   ? "animate-slideForward6 hover:animate-slideForward2Hover"
                   : "opacity-0"
-              }`}
+                }`}
               alt="Image 3"
             />
             <img
               src={Img4}
-              className={`DiamondImg absolute d ${
-                visible4
+              className={`DiamondImg absolute d ${visible4
                   ? "animate-slideForward5 hover:animate-slideForward2Hover"
                   : "opacity-0"
-              }`}
+                }`}
               alt="Image 4"
             />
             <img
               src={Img5}
-              className={`DiamondImg absolute e ${
-                visible4
+              className={`DiamondImg absolute e ${visible4
                   ? "animate-slideForward7 hover:animate-slideForward2Hover"
                   : "opacity-0"
-              }`}
+                }`}
               alt="Image 5"
             />
             <img
               src={Img6}
-              className={`DiamondImg absolute f ${
-                visible4
+              className={`DiamondImg absolute f ${visible4
                   ? "animate-slideForward3 hover:animate-slideForward2Hover"
                   : "opacity-0"
-              }`}
+                }`}
               alt="Image 6"
             />
             <img
               src={Img7}
-              className={`DiamondImg absolute g ${
-                visible4
+              className={`DiamondImg absolute g ${visible4
                   ? "animate-slideForward4 hover:animate-slideForward2Hover"
                   : "opacity-0"
-              }`}
+                }`}
               alt="Image 7"
             />
             <img
               src={Img8}
-              className={`DiamondImg absolute h ${
-                visible4
+              className={`DiamondImg absolute h ${visible4
                   ? "animate-slideForward2 hover:animate-slideForward2Hover"
                   : "opacity-0"
-              }`}
+                }`}
               alt="Image 8"
             />
           </div>

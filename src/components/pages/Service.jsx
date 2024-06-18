@@ -2,6 +2,7 @@ import Feature from "../Feature";
 import Products from "../Products";
 import Cta from "../Cta";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet-async";
 // const content = [
 //   {
 //     title: "Aluminum Sheets and Plates",
@@ -55,6 +56,11 @@ const Service = () => {
   const [t, i18n] = useTranslation("global");
   return (
     <div className="pt-28">
+      <Helmet>
+        <title>Service</title>
+        <meta name="description" content="At Dallol Aluminum, we offer a wide range of aluminum products and services to meet diverse customer needs." />
+        <link rel="canonical" href="/service" />
+      </Helmet>
       <div className="-mx-4 -mb-12 flex flex-wrap ">
         <div className="w-full px-4">
           <div className="mx-auto px-3 mt-5 max-w-[510px] text-center lg:mb-20">
