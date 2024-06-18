@@ -72,7 +72,7 @@ const Header = () => {
     <div className="text-gray-800 w-full font-sans fixed z-50">
       <div
         className={`md:w-[92%] w-full mx-auto md:mt-3 md:rounded-lg backdrop-blur-md ${
-          navShadow && "shadow-slate-400 shadow-lg "
+          navShadow && "shadow-lg bg-yellow-100/20"
         }`}
       >
         <div className="flex justify-between pt-4 pb-4">
@@ -82,7 +82,7 @@ const Header = () => {
               alt=""
               className="md:w-12 md:h-12 w-11 h-11 my-auto"
             />
-            <h3 className="pl-1 flex text-yellow-400 items-center md:text-lg text-base font-semibold">
+            <h3 className="pl-1 flex text-yellow-400 items-center md:text-2xl text-lg font-semibold">
               {t("header.header")}
             </h3>
           </div>
