@@ -4,12 +4,18 @@ import aboutL1 from "../../assets/aboutL1.jpg";
 import aboutL2 from "../../assets/aboutL2.jpg";
 import aboutP1 from "../../assets/aboutP1.jpg";
 import aboutP2 from "../../assets/aboutP2.jpg";
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
   const [t, i18n] = useTranslation("global");
 
   return (
     <div>
+      <Helmet>
+        <title>About</title>
+        <meta name="description" content="Welcome to Dallol Aluminum, where industry expertise and innovation converge. As specialists in aluminum supply, we transform raw materials into valuable opportunities for our clients." />
+        <link rel="canonical" href="/about" />
+      </Helmet>
       {/* <!-- Hero --> */}
       <div className="bg-[#1f1f22]">
         <div className="max-w-5xl mx-auto px-4 xl:px-0 pt-24 lg:pt-32 pb-24">

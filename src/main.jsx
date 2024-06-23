@@ -19,6 +19,7 @@ import Global_ENG from "./translation/english/global.json"
 import Global_AMH from "./translation/amharic/global.json"
 import i18next from 'i18next';
 import { I18nextProvider } from 'react-i18next';
+import { HelmetProvider } from 'react-helmet-async';
 
 i18next.init({
   interpolation: {escapeValue: false},
@@ -38,7 +39,9 @@ const root = createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <I18nextProvider i18n={i18next}>
-      <App />
+      <HelmetProvider>
+        <App />
+      </HelmetProvider>
     </I18nextProvider>
   </BrowserRouter>
 );
