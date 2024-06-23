@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import ScrollTrigger from "react-scroll-trigger";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 // Image for the pages
 import One from "../../img/one.png";
@@ -72,6 +73,11 @@ const Home = () => {
   const [t, i18n] = useTranslation("global");
   return (
     <div className="w-full font-sans">
+      <Helmet>
+        <title>Dallol Aluminum-Home</title>
+        <meta name="description" content="Welcome to Dallol Aluminum, where industry expertise and innovation converge. As specialists in aluminum supply, we transform raw materials into valuable opportunities for our clients." />
+        <link rel="canonical" href="/about" />
+      </Helmet>
       <div className="lg:p-16 p-10 lg:pt-44 pt-32 lg:grid grid-cols-2 w-full text-sans pb-14">
         <div className="lg:pb-0 pb-14">
           <p className="md:text-6xl text-5xl font-bold text-gray-700">

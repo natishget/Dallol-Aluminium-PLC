@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div>
       <Helmet>
-        <title>About</title>
+        <title>Dallol Aluminum-About</title>
         <meta name="description" content="Welcome to Dallol Aluminum, where industry expertise and innovation converge. As specialists in aluminum supply, we transform raw materials into valuable opportunities for our clients." />
         <link rel="canonical" href="/about" />
       </Helmet>

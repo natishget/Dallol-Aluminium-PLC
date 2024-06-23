@@ -54,7 +54,7 @@ const Contact2 = () => {
   return (
     <div className="  flex justify-center w-full">
       <Helmet>
-        <title>Contact Us</title>
+        <title>Dallol Aluminum-Contact Us</title>
         <meta name="description" content="Feel free to contact us any time. we will get back to you as soon as we can." />
         <link rel="canonical" href="/contact" />
       </Helmet>

@@ -57,7 +57,7 @@ const Service = () => {
   return (
     <div className="pt-28">
       <Helmet>
-        <title>Service</title>
+        <title>Dallol Aluminum-Service</title>
         <meta name="description" content="At Dallol Aluminum, we offer a wide range of aluminum products and services to meet diverse customer needs." />
         <link rel="canonical" href="/service" />
       </Helmet>
